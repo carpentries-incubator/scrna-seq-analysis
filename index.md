@@ -3,7 +3,7 @@ layout: lesson
 root: .  # Is the only page that doesn't follow the pattern /:path/index.html
 permalink: index.html  # Is the only page that doesn't follow the pattern /:path/index.html
 ---
-FIXME: home page introduction
+This 2-days lesson will discuss the computational analysis of the data obtained from scRNA-seq experiments.
 
 <!-- this is an html comment -->
 
@@ -11,7 +11,7 @@ FIXME: home page introduction
 
 > ## Prerequisites
 >
-> FIXME
+> The course is intended for those who have basic familiarity with Unix and the R scripting language
 {: .prereq}
 
 {% include links.md %}
