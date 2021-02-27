@@ -10,7 +10,7 @@
 carpentry: "incubator"
 
 # Overall title for pages.
-title: "scRNA-seq Analysis" # FIXME
+title: "Single-cell RNA-Seq Analysis" # FIXME
 
 # Life cycle stage of the lesson
 # See this page for more details: https://cdh.carpentries.org/the-lesson-life-cycle.html
