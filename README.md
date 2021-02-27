@@ -20,7 +20,7 @@ repository. For making your contribution, we use the GitHub flow, which is nicel
 Current maintainers of this lesson are
 
 * Batool Almarzouq
-* Elnaz AmanzadehJajin
+* Elnaz Amanzadeh Jajin
 
 
 ## Authors
