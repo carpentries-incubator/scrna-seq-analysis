@@ -1,3 +1,4 @@
+[![hackmd-github-sync-badge](https://hackmd.io/8HB7UVPpQ36QOFFE7LSiZA/badge)](https://hackmd.io/8HB7UVPpQ36QOFFE7LSiZA)
 # Single-cell RNA-Seq Analysis
 
 This 2-days lesson will discuss the computational analysis of the data obtained from scRNA-seq experiments.
