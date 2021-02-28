@@ -1,13 +1,15 @@
 ---
-title: "Introduction"
-teaching: 0
-exercises: 0
+title: "Introduction to scRNA-seq"
+teaching: 30
+exercises: 20
 questions:
-- "Key question (FIXME)"
+- "What is the advantages of RNA-seq over microarray?"
+- "What is teh difference between bulk RNA-seq and scRNA-seq?"
 objectives:
-- "First learning objective. (FIXME)"
+- "Understand how samples are compared in scRNA-seq"
+- "Understand the pitfalls in scRNA-seq sequencing and amplification, and how they are overcome"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "scRNA-seq requires much pre-processing before analysis can be performed"
 ---
 FIXME
 
