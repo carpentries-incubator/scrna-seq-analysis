@@ -1,7 +1,7 @@
 ---
 title: "Convert SRA to FASTQ format"
-teaching: 10
-exercises: 5
+teaching: 20
+exercises: 10
 questions:
 - "FIXME"
 objectives:
