@@ -11,7 +11,8 @@ objectives:
 keypoints:
 - "scRNA-seq requires more pre-processing than bulk RNA-seq"
 ---
-FIXME
+
+The main advantage of scRNA-seq is that the cellular resolution and the genome wide scope makes it possible to address issues that are intractable using other methods, e.g. bulk RNA-seq or single-cell RT-qPCR. However, to analyze scRNA-seq data, novel methods are required and some of the underlying assumptions for the methods developed for bulk RNA-seq experiments are no longer valid.
 
 {% include links.md %}
 
