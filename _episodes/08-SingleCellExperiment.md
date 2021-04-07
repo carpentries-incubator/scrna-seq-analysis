@@ -4,7 +4,7 @@ teaching: 45
 exercises: 15
 questions:
 - "What is SingleCellExperiment?"
-- "Why it id important to clean expression matrix in scRNA-seq data analysis?"
+- "Why it it important to clean expression matrix in scRNA-seq data analysis?"
 - "How to assess quality of reads and cells?"
 
 objectives:
