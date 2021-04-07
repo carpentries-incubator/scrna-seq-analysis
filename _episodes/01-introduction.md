@@ -22,7 +22,7 @@ In order to perform bulk RNA-seq studies, samples have to be lysed, and the RNA 
 
 ![the basic workflow for bulk RNA-seq](../fig/rna-seq-concept.jpeg)
 
-> ## challenge
+> ## Question
 > 
 > What is a cDNA library prepration, and why it is used in the bulk RNA-seq?
 > 
