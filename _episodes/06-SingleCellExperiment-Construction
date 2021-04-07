@@ -1,19 +1,22 @@
 ---
-title: "Mapping Reads"
+title: "06-SingleCellExperiment-Construction"
 teaching: 45
 exercises: 15
 questions:
-- "What does pseudo alignment means?"
-- "What is the advantage of pseudi alignment?"
-- "What is the difference of UMI dataset with other sequencing datasets?"
-- "Which packages can be useful for mapping UMI datasets?"
+- "What is SingleCellExperiment?"
+- "Why it id important to clean expression matrix in scRNA-seq data analysis?"
+- "How to assess quality of reads and cells?"
+
 objectives:
-- "Explain the concept of pseudo alignment"
-- "To understand difference between UMI and no-UMI datasets"
+- "Explain the SingleCellExperiment class"
+- "Create SingleCellExperiment class"
+- "Quality control of cells and reads"
+- "Filtering cells and genes with poor quality
 keypoints:
-- "There are two types of datasets in scRNA-seq processing."
-- "Data sets with no-UMI are mapped normally like the bulk RNA-seq large datasets."
-- "Datasets with UMI are mapped in two steps including features counting and UMI tools."
+- "There are cells with poor quality of gene expression in expression dataset."
+- "There are genes with zero expression level in expression matrix."
+- "Expression matrix should be cleaned before downstream analysis."
+- "Cleaning of expression matrix helps to improve results and remove noises and bias during the analysis."
 ---
 
 The important point dealing with scRNA-seq data is to understand the difference between UMI and no-UMI datasets. This makes it aeasy to deal with each type of dataset.
