@@ -3,9 +3,9 @@ title: "Introduction to Bioconductor"
 teaching: 10
 exercises: 5
 questions:
-- "FIXME"
+- "What is Bioconductor"
 objectives:
-- "FIXME"
+- "Understand how packages are installed and managed in bioconductor"
 keypoints:
 - "FIXME"
 ---
