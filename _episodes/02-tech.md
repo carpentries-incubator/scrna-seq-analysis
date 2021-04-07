@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Bioconductor"
+title: "scRNA-seq technologies and advancements"
 teaching: 10
 exercises: 5
 questions:
