@@ -23,8 +23,11 @@ In order to perform bulk RNA-seq studies, samples have to be lysed, and the RNA 
 ![the basic workflow for bulk RNA-seq](../fig/rna-seq-concept.jpeg)
 
 > ### Question
+> 
 > What is a cDNA library prepration, and why it is used in the bulk RNA-seq?
-> > ### Answer
+> 
+> > ### Solution
+> > 
 > > RNA is reverse transcribed to cDNA because DNA is more stable and to allow for amplification (which uses DNA polymerases) and leverage more mature DNA sequencing technology. While direct sequencing of RNA molecules is possible, most RNA-Seq experiments are carried out on instruments that sequence DNA molecules due to the technical maturity of commercial instruments designed for DNA-based sequencing. Therefore, cDNA library preparation from RNA is a required step for RNA-Seq. Each cDNA in an RNA-Seq library is composed of a cDNA insert of certain size flanked by adapter sequences, as required for amplification and sequencing on a specific platform. 
 > {: .solution}
 {: .challenge}
