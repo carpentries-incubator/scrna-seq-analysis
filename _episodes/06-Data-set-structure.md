@@ -19,7 +19,7 @@ This stage is performed using different approaches and metrics because it has no
 in an optimal approach but one should be careful following the codes in each experiment.
 For this, we are using the dataset provided in <a href="https://figshare.com/articles/dataset/Single-cell_RNA-seq_data_from_microfluidic_emulsion/5715025">figshare</a>.
 
-<h2 id="general">**SingleCellExperiment**</h2>
+<h2 id="general">SingleCellExperiment</h2>
 
 <a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html">SingleCellExperiment</a> is a S4 class developed by Bioconductor to stor data obtsined
 from single cell RNA sequencing experiments. This includes methods required for different steps of scRNA-seq data processing and analysis including dimensionality reduction, library size, and cells and genes data management.
