@@ -22,8 +22,9 @@ The important point dealing with scRNA-seq data is to understand the difference 
 After quantification analysis, we have an expression matrix in which each row represent one gene and column represents one cell.
 Most of the time there are cells with poor quality and cells with zero expression levels in all of the cells.
 If we dont filter cells and genes with low quality, this will cause noise and biase in downstream stages of the analysis.
-One of the most popular packages for filtering, dimentionality reduction, checking for spike-in information, and methods for metadata analysis is <a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html">SingleCellExperiment</a>.
-This is a S4 class developed by <4 href="https://www.bioconductor.org/"> Bioconductor</a> for storing data obtained from scRNA-seq analysis.
+One of the most popular packages for filtering, dimentionality reduction, checking for spike-in information, and methods for metadata analysis is
+<a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html">SingleCellExperiment</a>.
+This is a S4 class developed by <a href="https://www.bioconductor.org/">Bioconductor</a> for storing data obtained from scRNA-seq analysis.
 This class includes methods for analysis of single cell RNA-seq. For using SingleCellExperiment, it should be installed. The installation method is explained in
 <a href="https://carpentries-incubator.github.io/scrna-seq-analysis/setup.html> Setup</a> page of the lasson.
 # First of all I had downloaded data from the link.
