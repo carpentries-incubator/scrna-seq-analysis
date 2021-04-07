@@ -3,9 +3,9 @@ title: "Dataset and Workflow"
 teaching: 20
 exercises: 10
 questions:
-- "FIXME"
+- "What is the workflow for scRNA-seq?"
 objectives:
-- "FIXME"
+- "Describe the Dataset used in this lesson"
 keypoints:
 - "FIXME"
 ---
