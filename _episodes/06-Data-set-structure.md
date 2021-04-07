@@ -17,6 +17,9 @@ The quality control is applied on expression matrix in scRNA-seq analysis to fil
 Inadequate filteration leads to noise and biase in biological assessments in the downstream stages.
 This stage is performed using different approaches and metrics because it has no standard way. However, we are aiming to do this 
 in an optimal approach but one should be careful following the codes in each experiment.
-For this, we are using the dataset provided in 
+For this, we are using the dataset provided in <a href="https://figshare.com/articles/dataset/Single-cell_RNA-seq_data_from_microfluidic_emulsion/5715025">figshare</a>.
+
+<h2 id="general">SingleCellExperiment</h2>
+
 
 {% include links.md %}
