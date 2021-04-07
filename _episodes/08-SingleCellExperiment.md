@@ -28,7 +28,8 @@ This is a S4 class developed by <a href="https://www.bioconductor.org/">Biocondu
 This class includes methods for analysis of single cell RNA-seq. For using SingleCellExperiment, it should be installed. The installation method is explained in
 <a href="https://carpentries-incubator.github.io/scrna-seq-analysis/setup.html">Setup</a> page of the lasson.
 Two files including molecules.txt and annotation.txt will be used in this section that you can download from figshare in Setup page.
-# First of all I had downloaded data from the link.
+
+First of all I had downloaded data from the link.
 #Then put all data into the data folder.
 # Then I set the orking directory to the current one.
 setwd('/home/eli/Desktop/scRNS-Seq-data')
