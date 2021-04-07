@@ -16,9 +16,7 @@ RNA-seq (RNA-sequencing) is a technique that can examine the quantity and sequen
 
 In order to perform RNA-seq studies, samples have to be lysed, and the RNA is extracted. The following steps involve converting a sample of RNA to a cDNA library, which is then sequenced and mapped against a reference genome. The original goal of RNA sequencing was to compare the actual transcript abundance between samples.
 
-<p align="center">
-  <img src="/fig/rna-seq-concept.jpeg" width= 50%>
-</p>
+![the basic workflow for RNA-seq]({{ relative_root_path }}/fig/rna-seq-concept.jpeg){:class="img-responsive"}
   
 
 ### Pitfall of RNA-seq
