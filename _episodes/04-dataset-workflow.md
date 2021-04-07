@@ -1,5 +1,5 @@
 ---
-title: "Convert SRA to FASTQ format"
+title: "Dataset and Workflow"
 teaching: 20
 exercises: 10
 questions:
