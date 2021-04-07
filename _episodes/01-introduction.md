@@ -28,9 +28,16 @@ Therefore, scRNA-seq was introduced to overcome the limitation of bulk RNA-seq.
 
 ## Introduction to single-cell RNA-seq
 
-The main difference between bulk and single-cell RNA-seq (scRNA-seq) is that each sequencing library represents a single cell, instead of a population of cells.
+The main difference between bulk and single-cell RNA-seq (scRNA-seq) is that each sequencing library represents a single cell, instead of a population of cells. Bulk sample analysis is just like putting a fruit salad into a blender - the taste is an average of all ingredients. Analyzing single cells is like tasting each individual piece of fruit to gain a much more nuanced understanding of the composition of the fruit salad Single cell genomics
 
-The main advantage of scRNA-seq is that the cellular resolution and the genome-wide scope make it possible to address intractable issues using other methods, e.g. bulk RNA-seq or single-cell RT-qPCR. However, to analyze scRNA-seq data, novel methods are required, and some of the underlying assumptions for the methods developed for bulk RNA-seq experiments are no longer valid.
+![the difference between bulk RNA-seq and scRNA-seq](../fig/slide-juice.png)
+
+### The advantages of using scRNA-seq
+
+- It allows the measurement of the distribution of expression levels for each gene across a population of cells. 
+- It also allows to study new biological questions in which cell-specific changes in transcriptome are important, e.g. cell type identification, heterogeneity of cell responses, stochasticity of gene expression, inference of gene regulatory networks across the cells.
+
+The main advantage of scRNA-seq is that the cellular resolution and the genome-wide scope make it possible to address intractable issues using other methods, e.g. bulk RNA-seq or single-cell RT-qPCR. However, to analyse scRNA-seq data, novel methods are required, and some of the underlying assumptions for the methods developed for bulk RNA-seq experiments are no longer valid. There are also several different protocols in use, e.g. SMART-seq2 (Picelli et al. 2013), CELL-seq (Hashimshony et al. 2012) and Drop-seq (Macosko et al. 2015), which adds to the complexity of analysing scRNA-seq. In the next episode, we will briefly explore the various experimental methods currently used for scRNA-seq.
 
 {% include links.md %}
 
