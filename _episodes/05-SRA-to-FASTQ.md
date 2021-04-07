@@ -3,9 +3,10 @@ title: "Convert SRA to FASTQ format"
 teaching: 20
 exercises: 10
 questions:
-- "FIXME"
+- "What is The Sequence Read Archive (SRA)?"
+- "How to convert SRA to FASTQ using NCBI SRA Tools"
 objectives:
-- "FIXME"
+- "Describe FASTQ file"
 keypoints:
 - "FIXME"
 ---
