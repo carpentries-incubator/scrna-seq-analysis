@@ -21,5 +21,8 @@ For this, we are using the dataset provided in <a href="https://figshare.com/art
 
 <h2 id="general">SingleCellExperiment</h2>
 
+<a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html">SingleCellExperiment</a> is a S4 class developed by Bioconductor to stor data obtsined
+from single cell RNA sequencing experiments. This includes methods required for different steps of scRNA-seq data processing and analysis including dimensionality reduction, library size, and cells and genes data management. 
+
 
 {% include links.md %}
