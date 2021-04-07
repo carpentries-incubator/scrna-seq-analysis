@@ -38,7 +38,8 @@ In order to perform bulk RNA-seq studies, samples have to be lysed, and the RNA 
 ### Pitfall of bulk RNA-seq
 - Insufficient for studying heterogeneous systems, e.g. early development studies, complex tissues (brain)
 - Does not provide insights into the stochastic nature of gene expression
-Therefore, scRNA-seq was introduced to overcome the limitation of bulk RNA-seq. 
+
+Therefore, scRNA-seq was introduced to overcome the limitations of bulk RNA-seq. 
 
 ## Introduction to single-cell RNA-seq
 
