@@ -11,7 +11,7 @@ For this, Rstudio will be used. For downloading and installation, go to <a href=
 version based on your operation system.
 
 <h3 id="general">SingleCellExperiment</h3>
-For installation of SingleCellExperiment class, it is recommended to refer to <a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html> here</a>
+For installation of SingleCellExperiment class, it is recommended to refer to <a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html"> here</a>
   and follow uo the instruction. However, in this workshop, it is possible to install SingleCellExperiment in Rstudio using the following code:
   ~~~
 if (!requireNamespace("BiocManager", quietly = TRUE)) 
