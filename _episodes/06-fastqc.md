@@ -1,5 +1,5 @@
 ---
-title: "Quality Control of FASTQ files using `fastqc`"
+title: "Quality Control of FASTQ files"
 teaching: 30
 exercises: 20
 questions:
