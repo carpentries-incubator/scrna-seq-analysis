@@ -1,21 +1,23 @@
 ---
 title: "Construction of SingleCellExperiment Class"
-teaching: 45
-exercises: 15
+teaching: 40
+exercises: 20
 questions:
-- "What does pseudo alignment means?"
-- "What is the advantage of pseudi alignment?"
-- "What is the difference of UMI dataset with other sequencing datasets?"
-- "Which packages can be useful for mapping UMI datasets?"
+- "What is SingleCellExperiment class?"
+- "How to filter genes with zer expression level?"
 objectives:
-- "Explain the concept of pseudo alignment"
-- "To understand difference between UMI and no-UMI datasets"
+- "Define control features of the expression matrix"
+- "Calculate the quality matrix"
 keypoints:
-- "There are two types of datasets in scRNA-seq processing."
-- "Data sets with no-UMI are mapped normally like the bulk RNA-seq large datasets."
-- "Datasets with UMI are mapped in two steps including features counting and UMI tools."
+- "In scRNA-seq data analysis, there are always a number of genes with zero expression levels."
+- "Quality control for genes and cells in this analysis is important."
 ---
+Expression matrix is created after mapping and quanitifation of expression levels of genes.
+The quality control is applied on expression matrix in scRNA-seq analysis to filter all cells and genes with poor quality.
+Inadequate filteration leads to noise and biase in biological assessments in the downstream stages.
+This stage is performed using different approaches and metrics because it has no standard way. However, we are aiming to do this 
+in an optimal approach but one should be careful following the codes in each experiment.
+For this, we are using the dataset provided in <a href="https://figshare.com/articles/dataset/Single-cell_RNA-seq_data_from_microfluidic_emulsion/5715025">figshare</a>.
 
-The important point dealing with scRNA-seq data is to understand the difference between UMI and no-UMI datasets. This makes it aeasy to deal with each type of dataset.
 
 {% include links.md %}
