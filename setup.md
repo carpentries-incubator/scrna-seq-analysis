@@ -16,6 +16,7 @@ For installation of SingleCellExperiment class, it is recommended to refer to <a
   ~~~
 if (!requireNamespace("BiocManager", quietly = TRUE)) 
   install.packages("BiocManager")
+  BiocManager::install("SingleCellExperiment")
 ~~~
 {: .bash}
 
