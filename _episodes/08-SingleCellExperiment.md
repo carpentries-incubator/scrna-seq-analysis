@@ -6,12 +6,11 @@ questions:
 - "What is SingleCellExperiment?"
 - "Why it it important to clean expression matrix in scRNA-seq data analysis?"
 - "How to assess quality of reads and cells?"
-
 objectives:
 - "Explain the SingleCellExperiment class"
 - "Create SingleCellExperiment class"
 - "Quality control of cells and reads"
-- "Filtering cells and genes with poor quality
+- "Filtering cells and genes with poor quality"
 keypoints:
 - "There are cells with poor quality of gene expression in expression dataset."
 - "There are genes with zero expression level in expression matrix."
