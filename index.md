@@ -12,7 +12,7 @@ This 2-days lesson will discuss the computational analysis of the data obtained 
 > ## Prerequisites
 >
 > The course is intended for those who have basic familiarity with Unix and the R scripting language.
-> Please followup the instructions in Setup page.
+> Please follow the instructions in Setup page.
 {: .prereq}
 
 {% include links.md %}
