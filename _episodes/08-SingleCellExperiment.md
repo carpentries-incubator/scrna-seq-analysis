@@ -19,6 +19,10 @@ keypoints:
 ---
 
 The important point dealing with scRNA-seq data is to understand the difference between UMI and no-UMI datasets. This makes it aeasy to deal with each type of dataset.
+After quantification analysis, we have an expression matrix in which each row represent one gene and column represents one cell.
+Most of the time there are cells with poor quality and cells with zero expression levels in all of the cells.
+If we dont filter cells and genes with low quality, this will cause noise and biase in downstream stages of the analysis.
+One of the most popular packages for filtering, dimentionality reduction, checking for spike-in information, and methods for metadata analysis is  SingleCellExperiment. 
 # First of all I had downloaded data from the link.
 #Then put all data into the data folder.
 # Then I set the orking directory to the current one.
