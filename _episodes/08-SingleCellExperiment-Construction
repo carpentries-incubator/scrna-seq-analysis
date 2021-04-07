@@ -19,7 +19,7 @@ keypoints:
 - "Cleaning of expression matrix helps to improve results and remove noises and bias during the analysis."
 ---
 
-The important point dealing with scRNA-seq data is to understand the difference between UMI and no-UMI datasets. This makes it aeasy to deal with each type of dataset.
+The important point dealing with scRNA-seq data is to understand the difference between UMI and no-UMI datasets. This makes it aeasy to deal with each type of dataset. 
 
 {% include links.md %}
 
