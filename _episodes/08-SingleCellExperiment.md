@@ -53,12 +53,31 @@ anno <- read.table("annotation.txt", sep = "\t", header = TRUE)
 
 Now, 'head' will help to checkout data in the file:
  ~~~
-head(reads[ , 1:3]) TRUE)
+head(reads[ , 1:3])
 head(anno)
 ~~~
 {: .bash}
 
+In order to standardize our dataset, SingleCellExperiment object should be created.
+For this, create a SCE object using the code below:
 
+ ~~~
+ 
+ 
+umi <- SingleCellExperiment(
+    assays = list(counts = as.matrix(molecules)), 
+    colData = anno
+)
+~~~
+{: .bash}
+
+To remove genes with 0 expression the matrix, run the code below:
+
+~~~
+keep_feature <- rowSums(counts(umi) > 0) > 0
+umi <- umi[keep_feature, ]
+~~~
+{: .bash}
 
 {% include links.md %}
 
