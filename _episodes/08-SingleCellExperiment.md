@@ -26,7 +26,8 @@ One of the most popular packages for filtering, dimentionality reduction, checki
 <a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html">SingleCellExperiment</a>.
 This is a S4 class developed by <a href="https://www.bioconductor.org/">Bioconductor</a> for storing data obtained from scRNA-seq analysis.
 This class includes methods for analysis of single cell RNA-seq. For using SingleCellExperiment, it should be installed. The installation method is explained in
-<a href="https://carpentries-incubator.github.io/scrna-seq-analysis/setup.html> Setup</a> page of the lasson.
+<a href="https://carpentries-incubator.github.io/scrna-seq-analysis/setup.html">Setup</a>
+<a href="https://carpentries-incubator.github.io/scrna-seq-analysis/setup.html"> Setup</a> page of the lasson.
 # First of all I had downloaded data from the link.
 #Then put all data into the data folder.
 # Then I set the orking directory to the current one.
