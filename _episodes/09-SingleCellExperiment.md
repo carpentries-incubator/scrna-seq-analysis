@@ -81,3 +81,6 @@ umi <- umi[keep_feature, ]
 
 {% include links.md %}
 
+There are many alternative sequencing data for different feature types in scRNA-seq experiment such as spike-in transcripts in plate-based experiments, antibody tags in CITE-seq experiments, CRISPR tags, and allele information for tasts including various genotypes. All these features can be managed using a method in the SingleCellExperiment called “alternative Experiments”. This helps to keep and analyze various features separately while synchronization of operations on a single object is also done which makes it easierto interpret the results.
+In the dataset of Tung, we have spike-ins.
+
