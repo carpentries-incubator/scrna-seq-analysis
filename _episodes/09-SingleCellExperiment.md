@@ -75,12 +75,44 @@ To remove genes with 0 expression the matrix, run the code below:
 
 ~~~
 keep_feature <- rowSums(counts(umi) > 0) > 0
+
+keep_feature
+~~~
+{: .bash}
+
+~~~
+ENSG00000237683 ENSG00000187634 ENSG00000188976 ENSG00000187961 ENSG00000187583 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ENSG00000187642 ENSG00000188290 ENSG00000187608 ENSG00000188157 ENSG00000237330 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ENSG00000131591 ENSG00000162571 ENSG00000186891 ENSG00000186827 ENSG00000078808 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ENSG00000176022 ENSG00000184163 ENSG00000160087 ENSG00000162572 ENSG00000131584 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ENSG00000169972 ENSG00000127054 ENSG00000224051 ENSG00000169962 ENSG00000107404 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ENSG00000162576 ENSG00000175756 ENSG00000221978 ENSG00000224870 ENSG00000242485 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ENSG00000235098 ENSG00000205116 ENSG00000179403 ENSG00000215915 ENSG00000160072 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+           .
+           .
+           .
+           ENSG00000116752 ENSG00000175984 ENSG00000116748 ENSG00000213281 ENSG00000009307 
+           TRUE            TRUE            TRUE            TRUE            TRUE 
+ [ reached getOption("max.print") -- omitted 18027 entries ]
+ ~~~
+ {: .Output}
+ Since, we want to filter genes with zero expression levels, 
+~~~
 umi <- umi[keep_feature, ]
 ~~~
 {: .bash}
 
-{% include links.md %}
+
 
 There are many alternative sequencing data for different feature types in scRNA-seq experiment such as spike-in transcripts in plate-based experiments, antibody tags in CITE-seq experiments, CRISPR tags, and allele information for tasts including various genotypes. All these features can be managed using a method in the SingleCellExperiment called “alternative Experiments”. This helps to keep and analyze various features separately while synchronization of operations on a single object is also done which makes it easierto interpret the results.
-In the dataset of Tung, we have spike-ins.
+In the dataset of Tung, we have spike-ins and mitochondrial gene which are considered as features for filtering data. Data for each feature are represented in one separate row.
 
+
+{% include links.md %}
