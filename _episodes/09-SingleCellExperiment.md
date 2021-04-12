@@ -64,12 +64,30 @@ For this, create a SCE object using the code below:
  ~~~
  
  
-umi <- SingleCellExperiment(
+> umi <- SingleCellExperiment(
     assays = list(counts = as.matrix(molecules)), 
     colData = anno
 )
+
+> umi
 ~~~
 {: .bash}
+
+~~~
+class: SingleCellExperiment 
+dim: 19027 864 
+metadata(0):
+assays(1): counts
+rownames(19027): ENSG00000237683 ENSG00000187634 ... ERCC-00170 ERCC-00171
+rowData names(0):
+colnames(864): NA19098.r1.A01 NA19098.r1.A02 ... NA19239.r3.H11
+  NA19239.r3.H12
+colData names(5): individual replicate well batch sample_id
+reducedDimNames(0):
+spikeNames(0):
+altExpNames(0):
+~~~
+{: .output}
 
 To remove genes with 0 expression, the data matrix should be subset. For this, we can use <a href="http://www.r-tutor.com/r-introduction/basic-data-types/logical">logical values</a> which is a very useful method for subsetting dataframes and comparison between variables. For subsetting our data, run the code below:
 
@@ -111,9 +129,9 @@ umi <- umi[keep_feature, ]
 {: .bash}
 
 
-
 There are many alternative sequencing data for different feature types in scRNA-seq experiment such as spike-in transcripts in plate-based experiments, antibody tags in CITE-seq experiments, CRISPR tags, and allele information for tasts including various genotypes. All these features can be managed using a method in the SingleCellExperiment called “alternative Experiments”. This helps to keep and analyze various features separately while synchronization of operations on a single object is also done which makes it easierto interpret the results.
 In the dataset of Tung, we have spike-ins and mitochondrial gene which are considered as features for filtering data. Data for each feature are represented in one separate row.
+
 
 
 {% include links.md %}
