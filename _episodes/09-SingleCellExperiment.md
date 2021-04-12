@@ -71,7 +71,7 @@ umi <- SingleCellExperiment(
 ~~~
 {: .bash}
 
-To remove genes with 0 expression the matrix, run the code below:
+To remove genes with 0 expression, the data matrix should be subset. For this, we can use <a href="http://www.r-tutor.com/r-introduction/basic-data-types/logical">logical values</a> which is a very useful method for subsetting dataframes and comparison between variables. For subsetting our data, run the code below:
 
 ~~~
 keep_feature <- rowSums(counts(umi) > 0) > 0
