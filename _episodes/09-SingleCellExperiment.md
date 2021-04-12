@@ -143,8 +143,8 @@ reducedDimNames(0):
 spikeNames(0):
 altExpNames(0):
 ~~~
-
 {: .output}
+
 
 Now, you can make a comparison between umi before and after filteration.
 
