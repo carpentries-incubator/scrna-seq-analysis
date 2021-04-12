@@ -124,9 +124,30 @@ ENSG00000235098 ENSG00000205116 ENSG00000179403 ENSG00000215915 ENSG00000160072
 
  Since, we want to filter genes with zero expression levels, code will show all the genes with expression levels higher than zero with TRUE and each gene with zero expression levels are demonstrated as FALSE. Now, we can apply filteration by running code below:
 ~~~
-umi <- umi[keep_feature, ]
+> umi <- umi[keep_feature, ]
+> umi
 ~~~
 {: .bash}
+
+~~~
+class: SingleCellExperiment 
+dim: 18726 864 
+metadata(0):
+assays(1): counts
+rownames(18726): ENSG00000237683 ENSG00000187634 ... ERCC-00170 ERCC-00171
+rowData names(0):
+colnames(864): NA19098.r1.A01 NA19098.r1.A02 ... NA19239.r3.H11
+  NA19239.r3.H12
+colData names(5): individual replicate well batch sample_id
+reducedDimNames(0):
+spikeNames(0):
+altExpNames(0):
+~~~
+
+{: .output}
+
+Now, you can make a comparison between umi before and after filteration.
+
 
 
 There are many alternative sequencing data for different feature types in scRNA-seq experiment such as spike-in transcripts in plate-based experiments, antibody tags in CITE-seq experiments, CRISPR tags, and allele information for tasts including various genotypes. All these features can be managed using a method in the SingleCellExperiment called “alternative Experiments”. This helps to keep and analyze various features separately while synchronization of operations on a single object is also done which makes it easierto interpret the results.
