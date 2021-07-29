@@ -15,7 +15,7 @@ FIXME
 {% include links.md %}
 
 ## What is the Sequence Read Archive (SRA)?
-The [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra) store raw DNA and RNA sequencing data as SRA files, as well as alignment files. These SRA files are compressed forms of FASTQ data to save storage space. These FASTQ raw sequencing data have been produced by various sequencing platforms from Illumina, Oxford Nanopore, PacBio, BGISEQ, Ion Torrent, and LS454.
+The [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra) store raw DNA and RNA sequencing data as SRA files, as well as alignment files. These SRA files are compressed forms of FASTQ data to save storage space. These FASTQ raw sequencing data have been produced by various sequencing platforms from Illumina, Oxford Nanopore, PacBio, BGISEQ, Ion Torrent, and Roche (discontinued 454 sequencers).
 
 ## What is FASTQ?
 In contrast to FASTA, FASTQ contains an extra line per sequence that corresponds to the quality scores of each of the nucleotides. The FASTQ format was originally developed at the Wellcome Trust Sanger Institute, which has became the de factor standard for next-generation sequencing. Further details are explained at the [NCBI File Format Guide page](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/) and the [Wikipedia page](https://en.wikipedia.org/wiki/FASTQ_format).
