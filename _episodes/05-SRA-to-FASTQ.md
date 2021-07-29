@@ -50,7 +50,7 @@ $ fasterq-dump SRR000001
 These will create a directory SRR000001 and write three fastq files into SRR000001 (i.e., SRR000001.fastq, SRR000001_1.fastq, SRR000001_2.fastq).
 
 
-## Couldn't we download FASTQ files straightaway, using R instead of terminal?
+## Could we download FASTQ files straightaway, using R instead of terminal?
 We could directly download FASTQ files from EBI using the SRAdb Bioconductor package through ftp protocol. Let's install SRAdb in an R console session.
 ~~~
 > if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -70,4 +70,4 @@ For demonstration purpose, we will use a demo database.
 # or
 # getFASTQinfo( c("SRR000648","SRR000657"), sra_con, srcType = 'ftp')
 ~~~
-Alternatively, we could use fasp protocol to download large files at a faster speed. This requires the [IBM Aspera Connect](https://www.ibm.com/aspera/connect/) that has been separately installed. Further details are available at the [SRAdb vignettes](https://bioconductor.org/packages/release/bioc/vignettes/SRAdb/inst/doc/SRAdb.pdf).
+Alternatively, we could use fasp protocol to download large files at a faster speed. This requires the [IBM Aspera Connect](https://www.ibm.com/aspera/connect/) that has to be separately installed. Further details are available at the [SRAdb vignettes](https://bioconductor.org/packages/release/bioc/vignettes/SRAdb/inst/doc/SRAdb.pdf).
