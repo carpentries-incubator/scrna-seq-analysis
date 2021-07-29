@@ -43,8 +43,8 @@ $ ls
 We are going to use prefetch to download a SRA file (e.g., SRR000001) and fasterq-dump to convert SRA to FASTQ format. Further details are available at the [documentation page](https://github.com/ncbi/sra-tools/wiki/08.-prefetch-and-fasterq-dump).
 
 ~~~
-$ prefetch SRR000001
-$ fasterq-dump SRR000001
+$ ./prefetch SRR000001
+$ ./fasterq-dump SRR000001
 ~~~
 
 These will create a directory SRR000001 and write three fastq files into SRR000001 (i.e., SRR000001.fastq, SRR000001_1.fastq, SRR000001_2.fastq).
