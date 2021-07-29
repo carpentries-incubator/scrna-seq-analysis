@@ -51,18 +51,18 @@ These will create a directory SRR000001 and write three fastq files into SRR0000
 
 
 ## Couldn't we download FASTQ files straightaway, using R instead of terminal?
-We could directly download FASTQ files from EBI using SRAdb Bioconductor package. Let's install SRAdb in an R console session.
+We could directly download FASTQ files from EBI using the SRAdb Bioconductor package through ftp protocol. Let's install SRAdb in an R console session.
 ~~~
 > if (!requireNamespace("BiocManager", quietly = TRUE))
 +     install.packages("BiocManager")
 > BiocManager::install("SRAdb")
 > library(SRAdb)
 ~~~
-In contrast to SRA toolkit, SRAdb requires the SRAmetadb sqlite database that is available at the [Amazon cloud](https://s3.amazonaws.com/starbuck1/sradb/SRAmetadb.sqlite.gz). This database is very large (~40GB).
+In contrast to SRA toolkit, SRAdb requires the SRAmetadb sqlite database that is available at the [Amazon cloud](https://s3.amazonaws.com/starbuck1/sradb/SRAmetadb.sqlite.gz). However, this database is very large (~40GB).
 ~~~
 # sqlfile <- getSRAdbFile()
 ~~~
-For demonstration purpose, we will use a demo database. As this will utilise ftp protocol, which could be a bit slow for large files.
+For demonstration purpose, we will use a demo database.
 ~~~
 > sqlfile <- file.path(system.file('extdata', package='SRAdb'), 'SRAmetadb_demo.sqlite')
 > sra_con <- dbConnect(SQLite(),sqlfile)
@@ -70,29 +70,4 @@ For demonstration purpose, we will use a demo database. As this will utilise ftp
 # or
 # getFASTQinfo( c("SRR000648","SRR000657"), sra_con, srcType = 'ftp')
 ~~~
-
-~~~
-> ## List fasp addresses for associated fastq files:
-> listSRAfile ( c("SRX000122"), sra_con, fileType = 'fastq', srcType='fasp')
-> ## get fasp addresses for associated fastq files:
-> getFASTQinfo( c("SRX000122"), sra_con, srcType = 'fasp' )
-> ## download fastq files using fasp protocol:
-> # the following ascpCMD needs to be constructed according custom
-> # system configuration
-> # common ascp installation in a Linux system:
-> ascpCMD <- 'ascp -QT -l 300m -i
-+ /usr/local/aspera/connect/etc/asperaweb_id_dsa.putty'
-> ## common ascpCMD for a Mac OS X system:
-> # ascpCMD <- "'/Applications/Aspera Connect.app/Contents/
-> # Resources/ascp' -QT -l 300m -i '/Applications/
-> # Aspera Connect.app/Contents/Resources/asperaweb_id_dsa.putty'"
->
-> getSRAfile( c("SRX000122"), sra_con, fileType = 'fastq',
-+ srcType = 'fasp', ascpCMD = ascpCMD )
-Download sra files from NCBI using fasp protocol:
-> ## List fasp addresses of sra files associated with "SRX000122"
-> listSRAfile( c("SRX000122"), sra_con, fileType = 'sra', srcType='fasp')
-> ## download sra files using fasp protocol
-> getSRAfile( c("SRX000122"), sra_con, fileType = 'sra',
-+ srcType = 'fasp', ascpCMD = ascpCMD )
-~~~
+Alternatively, we could use fasp protocol to download large files at a faster speed. This requires the [IBM Aspera Connect](https://www.ibm.com/aspera/connect/) that has been separately installed. Further details are available at the [SRAdb vignettes](https://bioconductor.org/packages/release/bioc/vignettes/SRAdb/inst/doc/SRAdb.pdf).
