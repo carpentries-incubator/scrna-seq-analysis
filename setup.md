@@ -15,7 +15,6 @@ This lesson is designed using Python packages which especially ScanPy.
 For this, Jupyter lab is recommended to be used. For downloading and installation, go to <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html">Jupyter Lab</a> and download the desired
 version based on your operation system.
 
-<h3 id="general">SingleCellExperiment</h3>
 
 {: .bash}
 
