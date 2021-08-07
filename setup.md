@@ -2,22 +2,21 @@
 title: Setup
 ---
 <h3 id="general">Overview</h3>
-This workshop is developed to be run using <a href="https://www.bioconductor.org/">Bioconductor</a> in the R programming environement. For this, Rstudio is required in general. However, this lesson is run on pre-imaged Amazon Web Services (AWS) instances. With the exception of analysis of spreadsheet data files, all of the software and data used in the workshop are hosted on an Amazon Machine Image (AMI). Please follow the instructions below to prepare your computer for the workshop.
+The aim of Data Carpentry lessons is to teach  teach researchers basic concepts, skills, and tools for working
+with data so that they can get more done in less time, and with less pain. This workshop is designed to teach analysis
+of single cell RNA sequening in a step-by-step manner. In this regard, data cleaning, primary analysis, interpretation, helpful packages,
+etc are included. After this workshop, researchers and students will be able to perform analysis on scRNA-seq analysis and visualize the results.
+This workshop is designed to be taught within 10 hours compatibel with schedules including different days and hours.
+
 
 <h3 id="general">Software</h3>
 
-This lesson is designed using Bioconductor packages which work in R programming environment.
-For this, Rstudio will be used. For downloading and installation, go to <a href="https://www.rstudio.com/">Rstudio</a> and download the desired
+This lesson is designed using Python packages which especially ScanPy.
+For this, Jupyter lab is recommended to be used. For downloading and installation, go to <a href="https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html">Jupyter Lab</a> and download the desired
 version based on your operation system.
 
 <h3 id="general">SingleCellExperiment</h3>
-For installation of SingleCellExperiment class, it is recommended to refer to <a href="https://bioconductor.org/packages/release/bioc/html/SingleCellExperiment.html"> here</a>
-  and follow uo the instruction. However, in this workshop, it is possible to install SingleCellExperiment in Rstudio using the following code:
-  ~~~
-if (!requireNamespace("BiocManager", quietly = TRUE)) 
-  install.packages("BiocManager")
-  BiocManager::install("SingleCellExperiment")
-~~~
+
 {: .bash}
 
    
