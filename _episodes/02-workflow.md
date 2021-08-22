@@ -12,17 +12,14 @@ keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed"
 ---
 
-The strategy used for capture determines throughput, how the cells can be selected as well as what kind of additional information besides the sequencing that can be obtained. The three most widely used options are microwell-, microfluidic- and droplet- based.
-
-![the technologies used for scRNA-seq](../fig/tech.jpg)
-
-There has been explosion in the field of scRNA-seq in the last 5 years. Development of new methods and protocols for scRNA-seq is currently a very active area of research, and several protocols have been published over the last few years.
-
-![the technologies used for scRNA-seq](../fig/key-tech.jpeg)
-
-Significant attention has to be paid to comparison of the results from different cells (sequencing libraries). The main sources of discrepancy between the libraries are:
-
-- Amplification (up to 1 million fold)
-- Gene ‘dropouts’ in which a gene is observed at a moderate expression level in one cell but is not detected in another cell (Kharchenko, Silberstein, and Scadden 2014)
+Single cell RNA sequencing (scRNA-seq) is a novel technique for extracting more detailed information from genome.
+Technically, scRNA-seq includes two parts of experimental design and data analysis.
+As it was mentioned before, scRNA-seq is useful in case if heterogenity of cells and development studies. For example,
+imagine brain tissue with tens of types of cells with tens of different expression profiles. For extracting transcriptome
+of each cell, it is necessary to isolate each cell from the tissue properly.
+> ## Note
+> 
+> A challange in experiment design of scRNA-seq is to isolate cells and prepare a comprehensive library. 
+{: .callout}
 
 {% include links.md %}
