@@ -1,12 +1,13 @@
 ---
-title: "scRNA-seq Technologies"
-teaching: 10
+title: "scRNA-seq Workflow"
+teaching: 15
 exercises: 5
 questions:
-- "What is the various technologies used for scRNA-seq?"
+- "What is the standard workflow of scRNA-seq?"
 objectives:
-- "Understand the main difference between different protocols in scRNA-seq"
-- "Understand the challenges in scRNA-seq"
+- "Understand the main steps in scRNA-seq experiments."
+- "Understand the main steps in scRNA-seq data analysis."
+- "Understand the challanges in scRNA-seq data analysis."
 keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed"
 ---
