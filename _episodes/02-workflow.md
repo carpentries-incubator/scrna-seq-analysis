@@ -22,4 +22,8 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 > A challange in experiment design of scRNA-seq is to isolate cells and prepare a comprehensive library. 
 {: .callout}
 
+Several methods have been developed to overcome this challange from which STRT-seq, SMART-seq, CEL-seq, MARS-seq, Fluidigm C1, CytoSeq, Drop-seq, inDrop, 10x Genomics, SPLiT-seq, sci-RNA-seq, DronC-seq, and Seq-Well can be mentioned. The development process of sequencing techniques has been mentioned by [Svensson](https://www.nature.com/articles/nprot.2017.149) which can be assessed. For data analysis, there are few terms in scRNA-seq dictionary. Lets check them out!
+
+
+
 {% include links.md %}
