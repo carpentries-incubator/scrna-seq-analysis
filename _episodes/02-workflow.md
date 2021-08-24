@@ -12,6 +12,8 @@ keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed"
 ---
 
+# scRNA-Seq Experimental Workflow
+
 Single cell RNA sequencing (scRNA-seq) is a novel technique for extracting more detailed information from genome.
 Technically, scRNA-seq includes two parts of experimental design and data analysis.
 As it was mentioned before, scRNA-seq is useful in case if heterogenity of cells and development studies. For example,
@@ -35,11 +37,17 @@ For data analysis, there are few terms in scRNA-seq dictionary. Lets check them 
 > - Cell Barcode: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
 {: .callout}
 
-Here, you can see the order and construction of reads in scRNA-seq:
+[Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/) which can be assessed. , you can see the order and construction of reads in scRNA-seq:
 ![biasedreads2](https://user-images.githubusercontent.com/30586852/130571826-79ac907f-0c14-4367-a010-51d88a3140f0.png)
 
-Therefore, cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule.
+Cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule.
 
+
+# scRNA-Seq Computational Workflow
+
+scRNA-seq raw data includes reads with cell barcode and UMIs. Before alignment of reads to genome, reads can be grouped using cell barcodes and frequency if each read per cell per gene can be estimated using UMIs.
+After alignment and frequency calculations, we have a gene expression table containing cells represented in the columns and genes represented in the rows.
+Analysis of this table has challanges.
 
 
 {% include links.md %}
