@@ -29,14 +29,11 @@ Several methods have been developed to overcome this challange from which STRT-s
 For data analysis, there are few terms in scRNA-seq dictionary. Lets check them out!
 
 > ## scRNA-seq dictionary
-> Unique Molecular Identifiers (UMI): Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
+> - Unique Molecular Identifiers (UMI): Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
 > UMIs are used to identify input DNA molecules. 
-> External RNA Controls Consortium (ERCC) spike-in: A short RNA sequence which is used to calibrate measurements of RNA hybridization assays. ERCC spike-ins bind to DNA molecules with matching as control probes.
+> - External RNA Controls Consortium (ERCC) spike-in: A short RNA sequence which is used to calibrate measurements of RNA hybridization assays. ERCC spike-ins bind to DNA molecules with matching as control probes.
+> - 
 > 
-> The Digital Curation Center maintains [a list of metadata  standards](http://www.dcc.ac.uk/resources/metadata-standards/list) and some that are particularly relevant for genomics data are available from the [Genomics Standards Consortium](http://gensc.org/projects/).
->
-> If there are not metadata standards already, you can think about what the minimum amount of information is that someone would need to know about your data to be able to work with it, without talking to you.
->
 {: .callout}
 
 
