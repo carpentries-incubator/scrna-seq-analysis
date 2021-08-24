@@ -32,9 +32,13 @@ For data analysis, there are few terms in scRNA-seq dictionary. Lets check them 
 > - Unique Molecular Identifiers (UMI): Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
 > UMIs are used to identify input DNA molecules. 
 > - External RNA Controls Consortium (ERCC) spike-in: A short RNA sequence which is used to calibrate measurements of RNA hybridization assays. ERCC spike-ins bind to DNA molecules with matching as control probes.
-> - 
-> 
+> - Cell Barcode: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
 {: .callout}
+
+Here, you can see the order and construction of reads in scRNA-seq:
+![biasedreads2](https://user-images.githubusercontent.com/30586852/130571826-79ac907f-0c14-4367-a010-51d88a3140f0.png)
+
+Therefore, cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule.
 
 
 
