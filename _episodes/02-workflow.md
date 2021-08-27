@@ -17,7 +17,7 @@ keypoints:
 Single cell RNA sequencing (scRNA-seq) is a novel technique for extracting more detailed information from genome.
 Technically, scRNA-seq includes two parts of experimental design and data analysis.
 As it was mentioned before, scRNA-seq is useful in case of heterogenity of cells and development studies. For example,
-imagine brain tissue with tens of types of cells with tens of different expression profiles. For extracting transcriptome
+imagine brain tissue with tens of cell types with tens of different expression profiles. For extracting transcriptome
 of each cell, it is necessary to isolate each cell from the tissue properly.
 > ## Note
 > 
