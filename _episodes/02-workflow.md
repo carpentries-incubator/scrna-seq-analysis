@@ -28,7 +28,7 @@ Several methods have been developed to overcome this challange from which STRT-s
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
 
 
-For data analysis, there are few terms in scRNA-seq dictionary. Lets check them out!
+There are terms specific for scRNA-seq which we should know for analysis of data. Lets check them out!
 
 > ## scRNA-seq dictionary
 > - Unique Molecular Identifiers (UMI): Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
