@@ -39,7 +39,7 @@ There are terms specific for scRNA-seq which we should know for analysis of data
 > - Cell Barcode: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
 {: .callout}
 
-[Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/) which can be assessed. , you can see the order and construction of reads in scRNA-seq:
+[Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/), you can see the order and construction of reads in scRNA-seq:
 ![biasedreads2](https://user-images.githubusercontent.com/30586852/130571826-79ac907f-0c14-4367-a010-51d88a3140f0.png)
 
 Cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule.
