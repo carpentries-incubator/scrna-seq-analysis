@@ -28,7 +28,7 @@ Several methods have been developed to overcome this challange from which STRT-s
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
 
 
-There are terms specific for scRNA-seq which we should know for analysis of data. Lets check them out!
+There is a specific terminology for scRNA-seq which we should know for analysis of data. Lets check them out!
 
 > ## scRNA-seq dictionary
 > - `Unique Molecular Identifiers (UMI)`: Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
@@ -37,6 +37,10 @@ There are terms specific for scRNA-seq which we should know for analysis of data
 > -  `External RNA Controls Consortium (ERCC) spike-in`: A short RNA sequence which is used to calibrate measurements of RNA hybridization assays. ERCC spike-ins bind to DNA molecules with matching as control probes.
 > 
 > - `Cell Barcode`: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
+> 
+> `Flourescence-activated cell sorting (FACS)`: A flowcytometry method for cell isolation in which fluorescent tags are used to detect each cell.
+> 
+> `laser capture microdissection (LCM)`: Cell sorting method under direct microscopic visualization.
 {: .callout}
 
 [Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/), you can see the order and construction of reads in scRNA-seq:
