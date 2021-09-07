@@ -38,9 +38,9 @@ There is a specific terminology for scRNA-seq which we should know for analysis 
 > 
 > - `Cell Barcode`: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
 > 
-> `Flourescence-activated cell sorting (FACS)`: A flowcytometry method for cell isolation in which fluorescent tags are used to detect each cell.
+> - `Flourescence-activated cell sorting (FACS)`: A flowcytometry method for cell isolation in which fluorescent tags are used to detect each cell.
 > 
-> `laser capture microdissection (LCM)`: Cell sorting method under direct microscopic visualization.
+> - `laser capture microdissection (LCM)`: Cell sorting method under direct microscopic visualization.
 {: .callout}
 
 [Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/), you can see the order and construction of reads in scRNA-seq:
