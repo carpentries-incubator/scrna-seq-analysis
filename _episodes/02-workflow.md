@@ -52,8 +52,8 @@ Cell barcodes are used to determine each read belongs to which cell and UMI is u
 
 # scRNA-Seq Computational Workflow
 
-scRNA-seq raw data includes reads with cell barcode and UMIs. Before alignment of reads to genome, reads can be grouped using cell barcodes and frequency if each read per cell per gene can be estimated using UMIs.
+scRNA-seq raw data includes reads with cell barcode and UMIs. Before alignment of reads to genome, reads can be grouped using cell barcodes and the frequency of each read is estimated per cell per gene using UMIs.
 After alignment and frequency calculations, we have a gene expression table containing cells represented in the columns and genes represented in the rows.
-Analysis of this table has challanges.
+This is what we analyze in scRNA-seq comlutational workflow.
 {: .callout}
 {% include links.md %}
