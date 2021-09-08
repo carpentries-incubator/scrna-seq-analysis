@@ -9,7 +9,7 @@ objectives:
 - "Understand the main steps in scRNA-seq data analysis."
 - "Understand the challanges in scRNA-seq data analysis."
 keypoints:
-- "scRNA-seq requires much pre-processing before analysis can be performed"
+- "scRNA-seq requires much pre-processing before analysis can be performed."
 ---
 
 # scRNA-Seq Experimental Workflow
