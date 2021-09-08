@@ -48,13 +48,12 @@ There is a specific terminology for scRNA-seq which we should know for analysis 
 
 Cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule and enales counting the frequency of reads.
 
+{: .bash}
 
 # scRNA-Seq Computational Workflow
 
-~~~
 scRNA-seq raw data includes reads with cell barcode and UMIs. Before alignment of reads to genome, reads can be grouped using cell barcodes and frequency if each read per cell per gene can be estimated using UMIs.
 After alignment and frequency calculations, we have a gene expression table containing cells represented in the columns and genes represented in the rows.
 Analysis of this table has challanges.
-~~~
-
+{: .callout}
 {% include links.md %}
