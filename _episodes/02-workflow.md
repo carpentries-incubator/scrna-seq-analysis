@@ -55,4 +55,9 @@ Cell barcodes are used to determine each read belongs to which cell and UMI is u
 > After alignment and frequency calculations, we have a gene expression table containing cells represented in the columns and genes represented in the rows.
 This is what we analyze in scRNA-seq comlutational workflow.
 {: .callout}
+
+> Here You can see the bioinformatics workflow for analysis of scRNA-seq data.
+
+![Workflow](https://user-images.githubusercontent.com/30586852/132938128-c0bdc3ea-c8e0-4752-8c0e-267b586e7381.png)
+
 {% include links.md %}
