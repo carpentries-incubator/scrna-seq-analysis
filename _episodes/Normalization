@@ -1,0 +1,25 @@
+---
+title: "scRNA-seq Workflow"
+teaching: 15
+exercises: 5
+questions:
+- "What is the standard workflow of scRNA-seq?"
+objectives:
+- "Understand the main steps in scRNA-seq experiments."
+- "Understand the main steps in scRNA-seq data analysis."
+- "Understand the challanges in scRNA-seq data analysis."
+keypoints:
+- "scRNA-seq requires much pre-processing before analysis can be performed."
+---
+
+# scRNA-Seq Experimental Workflow
+
+Single cell RNA sequencing (scRNA-seq) is a novel technique for extracting more detailed information from genome.
+Technically, scRNA-seq includes two parts of experimental design and data analysis.
+As it was mentioned before, scRNA-seq is useful in case of heterogeniety of cells and developmental studies. For example,
+imagine brain tissue with tens of cell types with tens of different expression profiles. For extracting transcriptome
+of each cell, it is necessary to isolate each cell from the tissue properly.
+> ## Note
+> 
+> A challange in experiment design of scRNA-seq is to isolate cells and prepare a comprehensive library. 
+{: .callout}
