@@ -3,11 +3,11 @@ title: "Normalization"
 teaching: 15
 exercises: 5
 questions:
-- "What is the standard workflow of scRNA-seq?"
+- "What is the aim of normalization?"
 objectives:
-- "Understand the main steps in scRNA-seq experiments."
-- "Understand the main steps in scRNA-seq data analysis."
-- "Understand the challanges in scRNA-seq data analysis."
+- "To understand the structure of expression matrix."
+- "To use the Scanpy package for normalization."
+- "To create an object containing expression matrix, barcodes, and cell IDs."
 keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed."
 ---
