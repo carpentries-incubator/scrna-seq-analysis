@@ -15,3 +15,4 @@ keypoints:
 
 # Generating Expression Metadata
 
+Raw data for scRNA-se data are recieved as `BCL2` or `fastq` files. BCL2 files should be converted into .fastq files using a commandline software called [bcl2fastq] https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html
