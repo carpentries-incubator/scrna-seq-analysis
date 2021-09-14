@@ -6,11 +6,12 @@ questions:
 - "What is the aim of normalization?"
 objectives:
 - "To understand the structure of expression matrix."
-- "To use the Scanpy package for normalization."
+- "To use the `Scanpy` package for normalization."
 - "To create an object containing expression matrix, barcodes, and cell IDs."
 - "Understanding the necessity of normalizing counts for accurate comparison between cells."
 keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed."
 ---
 
-# Generating Metadata Mtrix
+# Generating Expression Metadata
+
