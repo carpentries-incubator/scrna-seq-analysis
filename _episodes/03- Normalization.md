@@ -67,32 +67,6 @@ barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt r
 ~~~
 {: .output}
 
-Now, we can check out if we have all the files required for the analysis.
-~~~
-$ ls/scRNA-seq
-~~~
-{: .bash}
-
->> In this directory we can find the files as below:
-~~~
-
-~~~
-{: .output}
-
-Since we will have several steps in scRNA-seqq data analysis workflow, let`s add a directory called output using the following code:
-~~~
-$ mkdir scRNA-seq/output
-~~~
-{: .bash}
-
- In this directory we can find the files as below:
-~~~
-barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt  output reads.rds  reads.txt  TPs.txt  umi.rds
-~~~
-{: .output}
-
-By checking the `scRNA-seq` directory again using `ls`, you will see the output directory added into the durectory. We will write and save the outputs of our analysis in this directory.
-
 
 # Preprocessing
 
