@@ -24,10 +24,34 @@ The dataset which we use for this workshop includes 6 files in `.tsv` format inc
 > ## Project Directory 
 > scRNA-seq analysis workflow begins with a few files and will produce a lot of files.
 > Therefore, it is useful to manage our files and directories.
-> For this, create a directory called `scRNA-seq' and transfer the downloaded files into this directory.
+> For this, create a directory called `scRNA-seq` and transfer the downloaded files into this directory.
 > Now, we can check out if we have all the files required for the analysis.
 {: .callout}
 
+~~~
+$ ls/scRNA-seq
+~~~
+{: .bash}
+
+>> In this directory we can find the files as below:
+~~~
+$ barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt  reads.rds  reads.txt  TPs.txt  umi.rds
+~~~
+{: .output}
+
+Since we will have several steps in scRNA-seqq data analysis workflow, let`s add a directory called output using the following code:
+~~~
+$ mkdir scRNA-seq/output
+~~~
+{: .bash}
+
+>> In this directory we can find the files as below:
+~~~
+$ barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt  output reads.rds  reads.txt  TPs.txt  umi.rds
+~~~
+{: .output}
+
+By checking the `scRNA-seq` directory again using `ls`, you will see the output directory added into the durectory. We will write and save the outputs of our analysis in this directory.
 
 
 # Preprocessing
