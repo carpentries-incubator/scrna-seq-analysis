@@ -22,11 +22,13 @@ The output of quantification analysis is a text file containing gene IDs in rows
 The dataset which we use for this workshop includes 6 files in `.tsv` format including information about cell barcodes, metadata, cell IDs and gene IDs, etc., and one file in `.mtx` format which includes the number of RNAs in each cell.
 
 > ## Project Directory 
-> scRNA-seq analysis workflow begins with a few files and will produce a lot of files. Therefore, it is useful to manage
-> our files and directories. For this, 
-> command into your terminal, you can use the `\` character
-> to separate code chunks onto separate lines. This can make your code more readable.
+> scRNA-seq analysis workflow begins with a few files and will produce a lot of files.
+> Therefore, it is useful to manage our files and directories.
+> For this, create a directory called `scRNA-seq' and transfer the downloaded files into this directory.
+> Now, we can check out if we have all the files required for the analysis.
 {: .callout}
+
+
 
 # Preprocessing
 
