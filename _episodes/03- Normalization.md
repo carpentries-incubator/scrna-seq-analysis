@@ -37,6 +37,20 @@ The dataset which we use for this workshop includes 6 files in `.tsv` format inc
 > we can add the date of files generation at the first part of files names. For example, 2021-09-20-normalization.txt. 
 {: .callout}
 
+> ## Exercise
+> 
+> Discuss your results with your classmate. What are the advantages and disadvantages of
+> file name system suggested? Which system do you suggest for file names which helps
+> for better management of scRNA-seq as a big data project?
+> 
+>> ## Solution
+>> - Advantages:
+>> Reproducibility.
+>> Easy to track the project progress.
+>> Disadvantage:
+>> Not all of the collaborators use the same manner for the data management. It makes hard to merge files and data.
+> {: .solution}
+{: .challenge}
 
 Now, we can check out if we have all the files required for the analysis.
 ~~~
