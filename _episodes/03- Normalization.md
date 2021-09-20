@@ -30,6 +30,8 @@ The dataset which we use for this workshop includes 6 files in `.tsv` format inc
 > 
 > ~~~
 > $ mkdir -p scRNA/{data,docs,output,scripts}.
+> $ ls
+> $ cd scRNA/data
 > ~~~
 > {: .bash}
 > 
@@ -52,6 +54,19 @@ The dataset which we use for this workshop includes 6 files in `.tsv` format inc
 > {: .solution}
 {: .challenge}
 
+Please download dataset using the link in setup (should be linked) into the data directory using the command below:
+
+~~~
+$ wget -c data-link
+$ ls
+~~~
+{: .bash}
+
+~~~
+barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt reads.rds  reads.txt  TPs.txt  umi.rds
+~~~
+{: .output}
+
 Now, we can check out if we have all the files required for the analysis.
 ~~~
 $ ls/scRNA-seq
@@ -60,7 +75,7 @@ $ ls/scRNA-seq
 
 >> In this directory we can find the files as below:
 ~~~
-barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt reads.rds  reads.txt  TPs.txt  umi.rds
+
 ~~~
 {: .output}
 
