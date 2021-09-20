@@ -45,9 +45,9 @@ $ mkdir scRNA-seq/output
 ~~~
 {: .bash}
 
->> In this directory we can find the files as below:
+ In this directory we can find the files as below:
 ~~~
-$ barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt  output reads.rds  reads.txt  TPs.txt  umi.rds
+barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt  output reads.rds  reads.txt  TPs.txt  umi.rds
 ~~~
 {: .output}
 
