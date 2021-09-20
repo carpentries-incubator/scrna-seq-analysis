@@ -24,10 +24,18 @@ The dataset which we use for this workshop includes 6 files in `.tsv` format inc
 > ## Project Directory 
 > scRNA-seq analysis workflow begins with a few files and will produce a lot of files.
 > Therefore, it is useful to manage our files and directories.
-> For this, create a directory called `scRNA-seq` and transfer the downloaded files into this directory.
-> Now, we can check out if we have all the files required for the analysis.
+> For this, create a directory called `scRNA-seq` and four subdirectories called data, scripts, output, and docs.
+> ~~~
+$ kdir -p scRNA/{data,docs,output,scripts}
+~~~
+{: .bash}
+> scRNA-seq data analysis is a mig data project. We will have a lot of files. For a better management,
+we can add the date of files generation at the first part of files names. For example, 2021-09-20-normalization.txt.
 {: .callout}
 
+
+
+Now, we can check out if we have all the files required for the analysis.
 ~~~
 $ ls/scRNA-seq
 ~~~
@@ -35,7 +43,7 @@ $ ls/scRNA-seq
 
 >> In this directory we can find the files as below:
 ~~~
-$ barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt  reads.rds  reads.txt  TPs.txt  umi.rds
+barcodes.tsv.gz  deng-reads.rds  features.tsv.gz  matrix.mtx.gz  molecules.txt reads.rds  reads.txt  TPs.txt  umi.rds
 ~~~
 {: .output}
 
@@ -57,5 +65,6 @@ By checking the `scRNA-seq` directory again using `ls`, you will see the output 
 # Preprocessing
 
 The first step using expression matrix is preprocessing which includes preprocessing and normalization.
+
 
 
