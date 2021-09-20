@@ -21,18 +21,21 @@ The output of quantification analysis is a text file containing gene IDs in rows
 # Get Data
 The dataset which we use for this workshop includes 6 files in `.tsv` format including information about cell barcodes, metadata, cell IDs and gene IDs, etc., and one file in `.mtx` format which includes the number of RNAs in each cell.
 
-> ## Project Directory 
-> scRNA-seq analysis workflow begins with a few files and will produce a lot of files.
+
+> ## Project Directory
+> 
+> IscRNA-seq analysis workflow begins with a few files and will produce a lot of files. 
 > Therefore, it is useful to manage our files and directories.
 > For this, create a directory called `scRNA-seq` and four subdirectories called data, scripts, output, and docs.
+> 
 > ~~~
-$ kdir -p scRNA/{data,docs,output,scripts}
-~~~
-{: .bash}
+> $ mkdir -p scRNA/{data,docs,output,scripts}.
+> ~~~
+> {: .bash}
+> 
 > scRNA-seq data analysis is a mig data project. We will have a lot of files. For a better management,
-we can add the date of files generation at the first part of files names. For example, 2021-09-20-normalization.txt.
+> we can add the date of files generation at the first part of files names. For example, 2021-09-20-normalization.txt. 
 {: .callout}
-
 
 
 Now, we can check out if we have all the files required for the analysis.
