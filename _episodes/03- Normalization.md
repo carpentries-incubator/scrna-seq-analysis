@@ -177,7 +177,7 @@ Figure should be added.
 {: .output}
 
 Usually, filtering is applied on two dimensions of the expression matrix: cells and genes.
-For this, scanpy includes four important filteration functions included in `pp` module: `filter_cells`, 
+For this, scanpy includes four important filteration functions included in `pp` (preprocessing) module: `filter_cells`, 
 `filter_genes`, and `filter_highly_variable_genes`, and `normalize_total`. Each function has parameter.
 Here, some challenges are required!
 
@@ -234,4 +234,17 @@ the proportion of mitochondrial genes.
 > These cells are assumed to be discarded before entering into the droplet.
 > Not filtering mitochondrial genes can cause formation a separate cluster in the further steps.
 {: .callout}
+
+Quality control is performed using `calculate_qc_metrics` function in `pp` module of scanpy using the code below:
+
+~~~
+$ adata.var['mt'] = adata.var_names.str.startswith('MT-')  
+$ sc.pp.calculate_qc_metrics(adata, qc_vars=['mt'], percent_top=None, log1p=False, inplace=True)
+~~~
+{: .bash}
+
+This code annotates the group of mitochondrial genes as 'mt'.
+
+Now, visualization is possible.
+
 
