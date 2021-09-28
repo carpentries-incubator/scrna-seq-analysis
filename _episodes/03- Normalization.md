@@ -134,3 +134,9 @@ $   var_names='gene_symbols',                # use gene symbols for the variable
 $   cache=True)                              # write a cache file for faster subsequent reading
 ~~~
 {: .bash}
+
+`sc.read_10x_mtx` is used for reading expression data matrix. `hg19` is the directory
+where `.mtx` file is stored. `var_names` is set to use gene_symbols. `cahe=True` is
+the code to write a cache file for faster subsequent reading.
+
+
