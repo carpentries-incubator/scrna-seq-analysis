@@ -195,7 +195,7 @@ Here, some challenges are required!
 > {: .solution}
 {: .challenge}
 
-In the same way, it is possible to explain 'min_genes', 'min_cells', 'max_counts', and 'max_genes', etc,.
+In the same way, it is possible to explain `min_genes`, `min_cells`, `max_counts`, and `max_genes`, etc,.
 
 > ## Exercise
 >
