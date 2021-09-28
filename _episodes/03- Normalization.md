@@ -226,5 +226,12 @@ filtered out 19024 genes that are detected in less than 3 cells
 ~~~
 {: .output}
 
+One main step for quality control of expression matrix is to achieve the information about
+the proportion of mitochondrial genes.
 
+> ## Mitochondiral genes a challenge for scRNA-seq 
+> Cells with poor quality in scRNA-sq contain high proportions of mitochondrial genes. 
+> These cells are assumed to be discarded before entering into the droplet.
+> Not filtering mitochondrial genes can cause formation a separate cluster i further steps.
+{: .callout}
 
