@@ -126,3 +126,11 @@ Based on the different types of files, it is needed to create an object which
 contains data of count matrix, annotations, barcodes, etc.
 The object is called [`AnnData`](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html).
 AnnData stores data in its special format called `h5ad`.
+The object named as `adata` is created using the code below:
+~~~
+$ adata = sc.read_10x_mtx(
+$   'data/filtered_gene_bc_matrices/hg19/',  # the directory with the `.mtx` file
+$   var_names='gene_symbols',                # use gene symbols for the variable names (variables-axis index)
+$   cache=True)                              # write a cache file for faster subsequent reading
+~~~
+{: .bash}
