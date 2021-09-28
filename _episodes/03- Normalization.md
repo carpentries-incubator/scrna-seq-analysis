@@ -264,6 +264,18 @@ The figures should be added.
 ~~~
 {: .output}
 
+Scatter plots are applied to visualize data after removal of mitochondrial genes with very high level of expression.
+
+~~~
+$ sc.pl.scatter(adata, x='total_counts', y='pct_counts_mt')
+$ sc.pl.scatter(adata, x='total_counts', y='n_genes_by_counts')
+~~~
+{: .bash}
+
+~~~
+The figures should be added.
+~~~
+{: .output}
 
 
 
