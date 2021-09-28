@@ -176,3 +176,7 @@ Figure should be added.
 ~~~
 {: .output}
 
+Usually, filtering is applied on two dimensions of the expression matrix: cells and genes.
+For this, scanpy includes four important filteration functions included in `pp` module: `filter_cells`, 
+`filter_genes`, and `filter_highly_variable_genes`, and `normalize_total`.
+
