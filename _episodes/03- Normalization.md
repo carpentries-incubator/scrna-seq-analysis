@@ -232,6 +232,6 @@ the proportion of mitochondrial genes.
 > ## Mitochondiral genes a challenge for scRNA-seq 
 > Cells with poor quality in scRNA-sq contain high proportions of mitochondrial genes. 
 > These cells are assumed to be discarded before entering into the droplet.
-> Not filtering mitochondrial genes can cause formation a separate cluster i further steps.
+> Not filtering mitochondrial genes can cause formation a separate cluster in the further steps.
 {: .callout}
 
