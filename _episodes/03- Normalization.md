@@ -16,8 +16,8 @@ keypoints:
 
 # Generating Expression Metadata
 
-Sequencing centers deliver the results of scRNA-seq in three formats including `BCL`, `fastq`, and `.mtx`. Raw data for scRNA-seq data are recieved as `BCL2` or `fastq` files. BCL2 files should be converted into FASTQ files using a commandline software called [bcl2fastq](https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html). Analysis of data in FASTQ format includes `Quality Control`, `Trimming`, `Alignment`, `Mapping` which are mainly similar with bulk RNA-seq analysis and you can find in   [Data Carpentry Genomics Lessons](https://datacarpentry.org/wrangling-genomics/). Quantification analysis uses statistical analysis and machine learning methods to detect the number of each transcript and count them per cell. Some of the methodologies normalize the counts of transcripts and filter the genes with no significantly different expression levels among which edgeR, DESeq, DESeq2, etc can be mentioned.
-The output of quantification analysis is a text file containing gene IDs in rows and cell IDs in columns which called expression matrix.
+Sequencing centers deliver the results of scRNA-seq in three formats including `BCL`, `fastq`, and `.mtx`. Raw data for scRNA-seq data are received as `BCL2` or `fastq` files. BCL2 files should be converted into FASTQ files using a command line software called [bcl2fastq](https://support.illumina.com/sequencing/sequencing_software/bcl2fastq-conversion-software.html). Analysis of data in FASTQ format includes `Quality Control`, `Trimming`, `Alignment`, `Mapping` which are mainly similar to bulk RNA-seq analysis and you can find in   [Data Carpentry Genomics Lessons](https://datacarpentry.org/wrangling-genomics/). Quantification analysis uses statistical analysis and machine learning methods to detect the number of each transcript and count them per cell. Some of the methodologies normalize the counts of transcripts and filter the genes with no significantly different expression levels among which edgeR, DESeq, DESeq2, etc can be mentioned.
+The output of quantification analysis is a text file containing gene IDs in rows and cell IDs in columns which is called an expression matrix.
 In this curriculum, we will work on the expression matrix and will apply the analysis steps on it.
 
 # Get Data
@@ -124,5 +124,5 @@ $ results_file = 'write/pbmc3k.h5ad'
 
 Based on the different types of files, it is needed to create an object which
 contains data of count matrix, annotations, barcodes, etc.
-The object is called 
-
+The object is called [`AnnData`](https://anndata.readthedocs.io/en/latest/anndata.AnnData.html).
+AnnData stores data in its special format called `h5ad`.
