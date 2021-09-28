@@ -139,4 +139,9 @@ $   cache=True)                              # write a cache file for faster sub
 where `.mtx` file is stored. `var_names` is set to use gene_symbols. `cahe=True` is
 the code to write a cache file for faster subsequent reading.
 
+~~~
+... reading from cache file cache/data-filtered_gene_bc_matrices-hg19-matrix.h5ad
+~~~
+{: .output}
+
 
