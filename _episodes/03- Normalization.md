@@ -247,4 +247,23 @@ This code annotates the group of mitochondrial genes as 'mt'.
 
 Now, visualization is possible.
 
+> ## Violin Plots 
+> - [Violin plots](https://en.wikipedia.org/wiki/Violin_plot) are used for visualization of quality control results in scRNA-seq.
+> The number of genes expressed in the count matrix, the total counts per cell, and the percentage of counts in mitochondrial genes.
+> - These plots are similar to box plots with addition of the probability density of the data at different values.
+{: .callout}
+
+~~~
+$ sc.pl.violin(adata, ['n_genes_by_counts', 'total_counts', 'pct_counts_mt'],
+             jitter=0.4, multi_panel=True)
+~~~
+{: .bash}
+
+~~~
+The figures should be added.
+~~~
+{: .output}
+
+
+
 
