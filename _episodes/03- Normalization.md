@@ -278,4 +278,67 @@ The figures should be added.
 {: .output}
 
 
+The results of filters are applied to splice AnnData object.
+
+~~~
+$ adata = adata[adata.obs.n_genes_by_counts < 2500, :]
+$ adata = adata[adata.obs.pct_counts_mt < 5, :]
+~~~
+{: .bash}
+
+Total-count normalize (library-size correct) is used to make counts comparable among cells. Using this method, the data matrix contains 10,000 reads per cell.
+
+~~~
+$ sc.pp.normalize_total(adata, target_sum=1e4)
+~~~
+{: .bash}
+
+The process takes a few seconds ...
+~~~
+normalizing counts per cell
+    finished (0:00:00)
+~~~
+{: .output}
+
+
+Logartimaize data:
+
+~~~
+$ sc.pp.log1p(adata)
+~~~
+{: .bash}
+
+And, identify highly-variable genes:
+~~~
+$ sc.pp.highly_variable_genes(adata, min_mean=0.0125, max_mean=3, min_disp=0.5)
+~~~
+{: .bash}
+
+`highly_variable_genes` function expects normalized and logarithmized data and the variation in genes expression level are
+rated using the normalized variance of count number. Highly variable gene (HVG) is an important parameter in scRNA-seq that
+helps to find the genes contribute strongly to cell-to-cell variation within a homogeneous cell population, such as a population
+of embryonic stem cells.
+
+~~~
+extracting highly variable genes
+    finished (0:00:00)
+--> added
+    'highly_variable', boolean vector (adata.var)
+    'means', float vector (adata.var)
+    dispersions', float vector (adata.var)
+    'dispersions_norm', float vector (adata.var)
+~~~
+{: .output}
+
+ Visualizing the HVGs:
+ 
+~~~
+$ sc.pl.highly_variable_genes(adata)
+~~~
+{: .bash}
+~~~
+The figure should be added.
+~~~
+{: .output}
+
 
