@@ -157,3 +157,6 @@ AnnData object with n_obs × n_vars = 2700 × 32738
 ~~~
 {: .output}
 
+The output shows that there are 2700 columns containing observations and 32738 rows including
+the variables with gene_id information in the reads count expression matrix.
+
