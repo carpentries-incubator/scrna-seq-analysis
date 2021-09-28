@@ -178,5 +178,37 @@ Figure should be added.
 
 Usually, filtering is applied on two dimensions of the expression matrix: cells and genes.
 For this, scanpy includes four important filteration functions included in `pp` module: `filter_cells`, 
-`filter_genes`, and `filter_highly_variable_genes`, and `normalize_total`.
+`filter_genes`, and `filter_highly_variable_genes`, and `normalize_total`. Each function has parameter.
+Here, some challenges are required!
+
+> ## Exercise
+>
+> Which one of the following options can descripe `min_counts` better?
+>
+> 1) Minimum number of genes required for a count to pass filtering.
+> 2) Minimum number of counts required for a cell to pass filtering.
+> 3) Minimum number of counts required for a gene to pass filtering.
+> 4) Minimum number of cells required to pass filtering.
+>
+>> ## Solution
+>> Option No.2. 
+> {: .solution}
+{: .challenge}
+
+In the same way, it is possible to explain 'min_genes', 'min_cells', 'max_counts', and 'max_genes', etc,.
+
+> ## Exercise
+>
+> Which one of the following options can descripe `n_top_genes` better?
+>
+> 1) Number of highly-variable genes to remove.
+> 2) Number of highly expressed genes to keep.
+> 3) Number of highly-variable genes to keep. Mandatory if flavor='seurat_v3'.
+> 4) Number of highly expressed genes to remove.
+>
+>> ## Solution
+>> Option No.3. 
+> {: .solution}
+{: .challenge}
+
 
