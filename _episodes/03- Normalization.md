@@ -108,7 +108,21 @@ $ sc.settings.set_figure_params(dpi=80, facecolor='white')
 ~~~
 {: .bash}
 
+Which will give you the following output:
+~~~
+scanpy==1.6.0 anndata==0.7.5.dev7+gefffdfb umap==0.4.2 numpy==1.18.1 scipy==1.4.1 pandas==1.0.3 scikit-learn==0.22.1 statsmodels==0.11.0 python-igraph==0.7.1 leidenalg==0.7.0
+~~~
+{: .output}
 
 
+A file is generated to store the analysis results:
 
+~~~
+$ results_file = 'write/pbmc3k.h5ad'
+~~~
+{: .bash}
+
+Based on the different types of files, it is needed to create an object which
+contains data of count matrix, annotations, barcodes, etc.
+The object is called 
 
