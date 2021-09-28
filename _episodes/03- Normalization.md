@@ -144,4 +144,16 @@ the code to write a cache file for faster subsequent reading.
 ~~~
 {: .output}
 
+Now, it is possible to check out the contents of `adata` object:
+
+~~~
+$ adata
+~~~
+{: .bash}
+
+~~~
+AnnData object with n_obs × n_vars = 2700 × 32738
+    var: 'gene_ids'
+~~~
+{: .output}
 
