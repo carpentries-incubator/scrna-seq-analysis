@@ -211,4 +211,20 @@ In the same way, it is possible to explain 'min_genes', 'min_cells', 'max_counts
 > {: .solution}
 {: .challenge}
 
+Now, basic and actual filtering can be performed.
+
+
+~~~
+$ sc.pp.filter_cells(adata, min_genes=200)
+$ sc.pp.filter_genes(adata, min_cells=3)
+~~~
+{: .bash}
+
+
+~~~
+filtered out 19024 genes that are detected in less than 3 cells
+~~~
+{: .output}
+
+
 
