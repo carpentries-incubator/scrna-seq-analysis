@@ -249,7 +249,7 @@ Now, visualization is possible.
 
 > ## Violin Plots 
 > - [Violin plots](https://en.wikipedia.org/wiki/Violin_plot) are used for visualization of quality control results in scRNA-seq.
-> The number of genes expressed in the count matrix, the total counts per cell, and the percentage of counts in mitochondrial genes.
+> - The number of genes expressed in the count matrix, the total counts per cell, and the percentage of counts in mitochondrial genes.
 > - These plots are similar to box plots with addition of the probability density of the data at different values.
 {: .callout}
 
