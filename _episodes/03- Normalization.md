@@ -160,3 +160,19 @@ AnnData object with n_obs × n_vars = 2700 × 32738
 The output shows that there are 2700 columns containing observations and 32738 rows including
 the variables with gene_id information in the reads count expression matrix.
 
+# Preprocessing & Normalization
+
+Expression matrix contains all the genes and their expression levels. As the first step of
+filtering, it is possible to find the first twenty genes with highest expression levels using the code below:
+
+~~~
+$ sc.pl.highest_expr_genes(adata, n_top=20, )
+~~~
+{: .bash}
+
+
+~~~
+Figure should be added.
+~~~
+{: .output}
+
