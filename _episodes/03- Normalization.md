@@ -95,3 +95,13 @@ $ import numpy as np
 ~~~
 {: .bash}
 
+Now, configuration settings of scanpy should be performed. Verbosity is
+an attribute for management of warning messages. The second line is used
+for creating a log file and the thord line is for general settings of the
+graph.
+
+
+
+
+
+
