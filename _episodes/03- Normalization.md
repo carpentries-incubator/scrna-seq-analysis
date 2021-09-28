@@ -97,8 +97,8 @@ $ import numpy as np
 
 Now, configuration settings of scanpy should be performed. Verbosity is
 an attribute for management of warning messages. The second line is used
-for creating a log file and the thord line is for general settings of the
-graph.
+for creating a log file and the thهrd line is the method for general settings
+of the graph.
 
 
 
