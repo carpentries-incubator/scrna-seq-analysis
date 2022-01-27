@@ -17,6 +17,9 @@ Expression data from scRNA-seq experiments represent thousands of reads for thou
 
 In this tutorial, We will use Human peripheral blood mononuclear cells (PBMCs) of a healthy female donor aged 25-30 were obtained by 10x Genomics. Libraries were generated from ~16,000 cells (11,996 cells recovered) as described in the Chromium Single Cell 3' Reagent Kits User Guide (v3.1 Chemistry Dual Index) (CG000315 Rev C) using the Chromium X and sequenced on an Illumina NovaSeq 6000 to a read depth of approximately 40,000 mean reads per cell.
 
+> FIXME: Add an image.
+
+
 ## Generation of count matrix:
 
 In this part, we will generate the count matrix from the raw sequencing data. After sequencing, the output generated from the sequencing machine will be either output the raw sequencing data as BCL or FASTQ format. Using this raw sequence, we will generate the count matrix.
@@ -99,6 +102,8 @@ ENSG00000222222 MPRRCCC      Gene Expression
 {: .challenge}
 
 The third output is `matrix.mtx.gz` which is a sparse matrix which contains the non-zero counts. Sparse matrix efficiently save the disk space by only recording the non-zero entries.
+
+> FIXME: Add the dimension of the matrix and index of the row (gene) and column(cell) - Figure is very important here.
 
 
 {% include links.md %}
