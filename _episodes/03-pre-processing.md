@@ -31,7 +31,7 @@ FIXME: Need to subset the dataset for the use only for this part of the lesson.
 
 in order to align the fastqs to the reference genome and count how many reads per gene per cell. We ca use `cellranger count` command.
 
-```{bash eval =FALSE}
+```
 cellranger count --id=bcl \
                    --transcriptome=/opt/refdata-cellranger-GRCh38-3.0.0 \
                    --fastqs=/home/test/outs/fastq_path/HAWT7ADXX/test_sample/ \
