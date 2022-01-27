@@ -27,7 +27,7 @@ When using 10X Genomics library preparation method, then the Cell Ranger pipelin
 
 >FIXME: Need to subset the dataset for the use only for this part of the lesson.
 
-in order to align the fastqs to the reference genome and count how many reads per gene per cell. We ca use `cellranger count` command.
+In order to align the fastqs to the reference genome and count how many reads per gene per cell. We ca use `cellranger count` command.
 
 ```
 cellranger count --id=bcl \
@@ -49,7 +49,7 @@ cellranger count --id=bcl \
 
 ### What is the output of `cellranger count`?
 
-In the `outs` folder, and you will find the `filtered_feature_bc_matrix` folder, which contains 3 files :
+In the `outs` folder, and you will find the `filtered_feature_bc_matrix` folder, which contains 3 files. We can explore these files using `ls` command.
 
 ```
 ls filtered_feature_bc_matrix/
@@ -57,7 +57,7 @@ ls filtered_feature_bc_matrix/
 
  ```
 
- We can look into individule files using `head` command. The `barcodes.tsv.gz` should contains all the cell barcodes that passed the `cellranger` filter
+ We can look into individual files using `zcat` and `head` command. The `barcodes.tsv.gz` should contains all the cell barcodes that passed the `cellranger` filter.
 
 > FIXME: Fix all the names/sequences when you subset the files
 
@@ -77,7 +77,7 @@ zcat barcodes.tsv.gz | wc -l
 11544
 ```
 
-The second file is the `features.tsv.gz`, which contains the ENSEMBLE id and gene symbol
+The second file is the `features.tsv.gz`, which contains the ENSEMBLE ID and gene symbol
 
 ```
 zcat features.tsv.gz | head -5
