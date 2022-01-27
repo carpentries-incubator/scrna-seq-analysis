@@ -25,6 +25,8 @@ In this part, we will generate the count matrix from the raw sequencing data. Af
 
 When using 10X Genomics library preparation method, then the Cell Ranger pipeline is most ideal way to pre-process the data. Make sure that you installed the Cell Ranger version 6 (see the instructions). Using `cellranger`, we can genome mapping, UMI filtering, UMI dedeplication and cell filtering. We will start with  
 
+FIXME: We need to add image cellranger pipeline where we shows different steps (e.g. extraction, filtering, ..) and also how to correct naming of the input file
+
 ```
 cellranger count --id=sample345 \
                    --transcriptome=/opt/refdata-gex-GRCh38-2020-A \
