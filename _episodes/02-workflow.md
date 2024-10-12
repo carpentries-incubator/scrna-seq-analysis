@@ -21,6 +21,10 @@ Technically, scRNA-seq includes two parts of experimental design and data analys
 As it was mentioned before, scRNA-seq is useful in case of heterogeniety of cells and developmental studies. For example,
 imagine brain tissue with tens of cell types with tens of different expression profiles. For extracting transcriptome
 of each cell, it is necessary to isolate each cell from the tissue properly.
+# To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
+For this, several methods have been developed since the introduction of scRNA-seq technique. Several steps are performed for this including:
+- Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells which
+are analyzed 
 > ## Note
 > 
 > A challange in experiment design of scRNA-seq is to isolate cells and prepare a comprehensive library. 
