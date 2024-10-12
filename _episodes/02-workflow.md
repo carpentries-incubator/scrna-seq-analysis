@@ -5,9 +5,11 @@ exercises: 5
 questions:
 - "What is the standard workflow of scRNA-seq?"
 objectives:
-- "Understand the main steps in scRNA-seq experiments."
+- "Understanding the main steps in scRNA-seq experiments."
 - "Understand the main steps in scRNA-seq data analysis."
-- "Understand the challanges in scRNA-seq data analysis."
+- "Understanding the main protocols in scRNA-seq and the differences between them."
+- "Experimental challenges in preparation of samples for scRNA-seq data analysis."
+  
 keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed."
 ---
