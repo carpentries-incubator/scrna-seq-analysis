@@ -14,14 +14,6 @@ keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed."
 ---
 
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Challenge
-
-Download the latest mouse transcriptome fasta file from GENCODE. What do the entries look like? Tip: to read the file into R, consider the `readDNAStringSet()` function from the `Biostrings` package.
-  
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 
 # scRNA-Seq Experimental Workflow
@@ -32,25 +24,21 @@ As it was mentioned before, scRNA-seq is useful in case of heterogeniety of cell
 imagine brain tissue with tens of cell types with tens of different expression profiles. For extracting transcriptome
 of each cell, it is necessary to isolate each cell from the tissue properly.
 
-:::::::::::::::::::::::::::::::::::::::: keypoints
-
-- ## Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
-- Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
-  * Primary methods: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
-  * Robotics methods which automates single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
--  Second Strand Generation:  
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-
 
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
-For this, several methods have been developed since the introduction of scRNA-seq technique. Several steps are performed for this including:
-- Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment.
-- For this 
+- ## Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
+- Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
+  * Primary methods: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
+  * Robotics methods which automates single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
+-  Second Strand Generation:  There are three methods for this:
+  * Adding poly-A tail: In this method, after adding a ploy-A tail, a poly-T primer is used to amplify cDNA. Quartz-Seq and Quartz-Seq2.
+  * MMLV terminal transferase: This enzyme adds cytosines to 3' end of RNA and ploy-G is added to 3' end and a complementary strand is synthesized.
+   STRT-seq, SMART-seq, SMART-seq2, Drop-seq, Seq-Well, Chromium, and SPLiT-seq.
+  * Combination of ribonuclease (RNase) H and DNA polymerase I from Escherichia coli: In this method, RNase H first cuts mRNA in the mRNA-DNA duplex.
+    Then, the RNA-primed first strand cDNA is used as template, and second strand cDNA is synthesized by DNA polymerase I.
+    CEL-seq, CEL-seq2, MARS-seq, inDrop, and sci-RNA-seq. 
 > 
 {: .callout}
 
