@@ -14,6 +14,16 @@ keypoints:
 - "scRNA-seq requires much pre-processing before analysis can be performed."
 ---
 
+:::::::::::::::::::::::::::::::::::::::  challenge
+
+## Challenge
+
+Download the latest mouse transcriptome fasta file from GENCODE. What do the entries look like? Tip: to read the file into R, consider the `readDNAStringSet()` function from the `Biostrings` package.
+  
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
 # scRNA-Seq Experimental Workflow
 
 Single cell RNA sequencing (scRNA-seq) is a novel technique for extracting more detailed information from genome.
