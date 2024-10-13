@@ -43,21 +43,15 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 {: .callout}
 
 
-<div style="background-color: lightblue; padding: 10px; border-radius: 5px;">
-    <strong>Library Construction Mehods:</strong> 
-  - PCR-based methods for library amplification due to simplicity and speed.
-  - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
-  CEL-seq, CEL-seq2, and inDrop.
-  - Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.
-</div>
-
 <div style="background-color: lightblue; padding: 15px; border-radius: 5px;">
-    <h3>Library Construction Mehods:</h3>
+    <h3 style="color: darkblue;">Library Construction Mehods: 1</h3>
     <p>PCR-based methods for library amplification due to simplicity and speed.
   - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
   CEL-seq, CEL-seq2, and inDrop.</p>
-    <p> - Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
+    <p>- Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
 </div>
+
+
 
  [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
