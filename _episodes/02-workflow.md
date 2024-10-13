@@ -28,7 +28,7 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
-- ## Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
+- # Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
 - Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
   * Primary methods: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
   * Robotics methods which automates single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
@@ -41,6 +41,12 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
     CEL-seq, CEL-seq2, MARS-seq, inDrop, and sci-RNA-seq. 
 > 
 {: .callout}
+
+
+<div style="background-color: lightblue; padding: 10px; border-radius: 5px;">
+    <strong>Info:</strong> This is an informational box.
+</div>
+
 
 Several methods have been developed to overcome this challange from which STRT-seq, SMART-seq, CEL-seq, MARS-seq, Fluidigm C1, CytoSeq, Drop-seq, inDrop, 10x Genomics, SPLiT-seq, sci-RNA-seq, DronC-seq, and Seq-Well can be mentioned. The developmental process of sequencing techniques has been mentioned by [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
