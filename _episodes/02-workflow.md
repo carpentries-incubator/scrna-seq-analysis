@@ -25,6 +25,23 @@ imagine brain tissue with tens of cell types with tens of different expression p
 of each cell, it is necessary to isolate each cell from the tissue properly.
 
 
+> ## scRNA-seq dictionary
+> - `Unique Molecular Identifiers (UMI)`: Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
+> UMIs are used to identify input DNA molecules. 
+> 
+> -  `External RNA Controls Consortium (ERCC) spike-in`: A short RNA sequence which is used to calibrate measurements of RNA hybridization assays. ERCC spike-ins bind to DNA molecules with matching as control probes.
+> 
+> - `Cell Barcode`: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
+> 
+> - `Flourescence-activated cell sorting (FACS)`: A flowcytometry method for cell isolation in which fluorescent tags are used to detect each cell.
+> 
+> - `laser capture microdissection (LCM)`: Cell sorting method under direct microscopic visualization.
+{: .callout}
+
+[Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/), you can see the order and construction of reads in scRNA-seq:
+![biasedreads2](https://user-images.githubusercontent.com/30586852/130571826-79ac907f-0c14-4367-a010-51d88a3140f0.png)
+
+
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
@@ -45,10 +62,10 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 
 <div style="background-color: lightblue; padding: 15px; border-radius: 5px;">
     <h3 style="background-color: darkblue; color: white; padding: 10px; border-radius: 5px;">Library Construction Mehods:</h3>
-    <p>PCR-based methods for library amplification due to simplicity and speed.
+    <p>* PCR-based methods for library amplification due to simplicity and speed.
   - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
   CEL-seq, CEL-seq2, and inDrop.</p>
-    <p>- Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
+    <p>* Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
 </div>
 
 
@@ -61,21 +78,7 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 
 There is a specific terminology for scRNA-seq which we should know for analysis of data. Lets check them out!
 
-> ## scRNA-seq dictionary
-> - `Unique Molecular Identifiers (UMI)`: Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
-> UMIs are used to identify input DNA molecules. 
-> 
-> -  `External RNA Controls Consortium (ERCC) spike-in`: A short RNA sequence which is used to calibrate measurements of RNA hybridization assays. ERCC spike-ins bind to DNA molecules with matching as control probes.
-> 
-> - `Cell Barcode`: unique nucleic acid sequences, termed barcodes, which are used to label individual cells, so that they can be tracked through space and time in scRNA-seq.
-> 
-> - `Flourescence-activated cell sorting (FACS)`: A flowcytometry method for cell isolation in which fluorescent tags are used to detect each cell.
-> 
-> - `laser capture microdissection (LCM)`: Cell sorting method under direct microscopic visualization.
-{: .callout}
 
-[Here](http://data-science-sequencing.github.io/Win2018/lectures/lecture16/), you can see the order and construction of reads in scRNA-seq:
-![biasedreads2](https://user-images.githubusercontent.com/30586852/130571826-79ac907f-0c14-4367-a010-51d88a3140f0.png)
 
 Cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule and enales counting the frequency of reads.
 
