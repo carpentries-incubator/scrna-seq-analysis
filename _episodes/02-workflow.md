@@ -62,6 +62,8 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
  [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
 
+![Fig2](![Figure1](https://github.com/user-attachments/assets/fff467db-bf54-4e58-9e4a-cb16dab8c722))
+
 
 There is a specific terminology for scRNA-seq which we should know for analysis of data. Lets check them out!
 
