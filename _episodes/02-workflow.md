@@ -28,7 +28,7 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
-- # Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
+- Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
 - Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
   * Primary methods: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
   * Robotics methods which automates single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
@@ -44,7 +44,11 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 
 
 <div style="background-color: lightblue; padding: 10px; border-radius: 5px;">
-    <strong>Info:</strong> This is an informational box.
+    <strong>Library Construction Mehods:</strong> 
+  - PCR-based methods for library amplification due to simplicity and speed.
+  - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
+  CEL-seq, CEL-seq2, and inDrop.
+  - Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.
 </div>
 
 
