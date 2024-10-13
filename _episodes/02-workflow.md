@@ -44,7 +44,7 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 
 
 <div style="background-color: lightblue; padding: 15px; border-radius: 5px;">
-    <h3 style="color: darkblue;">Library Construction Mehods: 1</h3>
+    <h3 style="color: darkblue;">Library Construction Mehods: </h3>
     <p>PCR-based methods for library amplification due to simplicity and speed.
   - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
   CEL-seq, CEL-seq2, and inDrop.</p>
