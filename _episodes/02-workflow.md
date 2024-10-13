@@ -22,6 +22,19 @@ As it was mentioned before, scRNA-seq is useful in case of heterogeniety of cell
 imagine brain tissue with tens of cell types with tens of different expression profiles. For extracting transcriptome
 of each cell, it is necessary to isolate each cell from the tissue properly.
 
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- ## Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
+- Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
+  * Primary methods: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
+  * Robotics methods which automates single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
+-  Second Strand Generation:  
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
