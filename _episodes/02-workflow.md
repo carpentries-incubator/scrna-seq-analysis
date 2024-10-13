@@ -51,6 +51,12 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
   - Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.
 </div>
 
+<div style="background-color: lightblue; padding: 15px; border-radius: 5px;">
+    <h3>Info Box</h3>
+    <p>This is an informational box that provides useful insights.</p>
+    <p>It can contain multiple paragraphs to elaborate on the topic.</p>
+</div>
+
 
 Several methods have been developed to overcome this challange from which STRT-seq, SMART-seq, CEL-seq, MARS-seq, Fluidigm C1, CytoSeq, Drop-seq, inDrop, 10x Genomics, SPLiT-seq, sci-RNA-seq, DronC-seq, and Seq-Well can be mentioned. The developmental process of sequencing techniques has been mentioned by [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
