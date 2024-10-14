@@ -76,7 +76,8 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
  [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
 
-![Fig2](https://github.com/user-attachments/assets/abe18944-ade5-4cbf-abcc-f2453e0dc323.jpg)
+![Fig2](![Figure2](https://github.com/user-attachments/assets/ef8323a0-010e-4f8c-9068-9940c4a5a8bd)
+)
 
 
 
