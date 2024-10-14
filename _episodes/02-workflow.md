@@ -66,13 +66,6 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 {: .callout}
 
 
-<div style="background-color: white; padding: 15px; border-radius: 5px;">
-    <h3 style="background-color: lightblue; color: white; padding: 10px; border-radius: 5px;">Full Length DNA Synthesis?:</h3>
-    <p> - 'PCR-based methods for library amplification due to simplicity and speed'.
-  - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
-  CEL-seq, CEL-seq2, and inDrop.</p>
-    <p>* STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
-</div>
 
 
 
@@ -80,6 +73,13 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 ![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
 
 
+<div style="background-color: white; padding: 15px; border-radius: 5px;">
+    <h3 style="background-color: lightblue; color: white; padding: 10px; border-radius: 5px;">Full Length DNA Synthesis?</h3>
+    <p> `PCR-based methods for library amplification due to simplicity and speed`.
+  - `In vitro transcription (IVT)` achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
+  CEL-seq, CEL-seq2, and inDrop.</p>
+    <p> - STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
+</div>
 
 ![Figure2](https://github.com/user-attachments/assets/e81f3706-8f25-44a5-977b-544b0500d870)
 
