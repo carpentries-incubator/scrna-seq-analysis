@@ -54,17 +54,19 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 > - 
 > - ## Single Cell Isolation:
 >  The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
-> `Primary methods`: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
-> `Robotics methods`: These methods automate single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
+> `Primary methods`: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone. Smart-Seq2, CEL-Seq2, STRT-Seq, and MARS-Seq use these methods for single cell isolation. 
+> `Robotics methods`: These methods automate single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor. DropSeq, InDrop, Chromium, SeqWell, SciRNAseq, and PLiT-seq
+> use these methods for single cell isolation.
 > 
 {: .callout}
 
 
 
+![Figure-3](https://github.com/user-attachments/assets/3ccdc401-dbe5-4570-aae1-e580404ce49e)
 
 
  [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
-![Fig1](https://user-images.githubusercontent.com/30586852/130464788-8f2e1c8e-bb5d-43d7-95a9-5d8e9adbe39d.png)
+
 
 > ## Full Length DNA Synthesis?
 > # Second Strand Generation: 
