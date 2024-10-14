@@ -51,15 +51,17 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
 > - Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
 >
-> - 
+>   
 > - ## Single Cell Isolation:
 >  The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
-> `Primary methods`: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone. Smart-Seq2, CEL-Seq2, STRT-Seq, and MARS-Seq use these methods for single cell isolation. 
-> `Robotics methods`: These methods automate single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor. DropSeq, InDrop, Chromium, SeqWell, SciRNAseq, and PLiT-seq
+> - `Primary methods`: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone. Smart-Seq2, CEL-Seq2, STRT-Seq, and MARS-Seq use these methods for single cell isolation.
+>   
+> - `Robotics methods`: These methods automate single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor. DropSeq, InDrop, Chromium, SeqWell, SciRNAseq, and PLiT-seq
 > use these methods for single cell isolation.
 > 
 {: .callout}
 
+![Figure2](https://github.com/user-attachments/assets/4ec6267e-3366-4861-9b5e-5d3f8bc0c7f8)
 
 
 ![Figure-3](https://github.com/user-attachments/assets/3ccdc401-dbe5-4570-aae1-e580404ce49e)
@@ -86,8 +88,6 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 {: .callout}
 
 
-
-![Figure2](https://github.com/user-attachments/assets/e81f3706-8f25-44a5-977b-544b0500d870)
 
 
 
