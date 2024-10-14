@@ -49,7 +49,9 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
-> - `Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including`:
+> - Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
+>
+> - 
 > - ## Single Cell Isolation:
 >  The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
 > `Primary methods`: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
@@ -78,11 +80,13 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
   CEL-seq, CEL-seq2, and inDrop. 
 > 
 > -  STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.
+> -  In Figure3 you can see the differences of methodologies between various techniques.
 {: .callout}
 
 
 
 ![Figure2](https://github.com/user-attachments/assets/e81f3706-8f25-44a5-977b-544b0500d870)
+
 
 
 Cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule and enales counting the frequency of reads.
