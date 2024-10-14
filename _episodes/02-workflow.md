@@ -64,7 +64,6 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 ![Figure2](https://github.com/user-attachments/assets/4ec6267e-3366-4861-9b5e-5d3f8bc0c7f8)
 
 
-![Figure-3](https://github.com/user-attachments/assets/3ccdc401-dbe5-4570-aae1-e580404ce49e)
 
 
  [Svensson and colleagues](https://www.nature.com/articles/nprot.2017.149). 
@@ -88,7 +87,7 @@ Here is a specific terminology for scRNA-seq which we should know for analysis o
 {: .callout}
 
 
-
+![Figure-3](https://github.com/user-attachments/assets/3ccdc401-dbe5-4570-aae1-e580404ce49e)
 
 
 Cell barcodes are used to determine each read belongs to which cell and UMI is used for identification of each RNA molecule and enales counting the frequency of reads.
