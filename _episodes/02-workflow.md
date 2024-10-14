@@ -24,6 +24,7 @@ As it was mentioned before, scRNA-seq is useful in case of heterogeniety of cell
 imagine brain tissue with tens of cell types with tens of different expression profiles. For extracting transcriptome
 of each cell, it is necessary to isolate each cell from the tissue properly.
 
+Here is a specific terminology for scRNA-seq which we should know for analysis of data. Lets check them out!
 
 > ## scRNA-seq dictionary
 > - `Unique Molecular Identifiers (UMI)`: Short random molecular tags which are added to DNA fragments in library preparation process before PCR amplification.
@@ -45,27 +46,29 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 > ## Note
 >
 > # To achieve transcriptome of each cell individually, it is required to separate cells of a tissue or a sample into single cells.
-- Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including:
-- Single Cell Isolation: The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
-  * Primary methods: These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
-  * Robotics methods which automates single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
--  Second Strand Generation:  There are three methods for this:
-  * Adding poly-A tail: In this method, after adding a ploy-A tail, a poly-T primer is used to amplify cDNA. Quartz-Seq and Quartz-Seq2.
-  * MMLV terminal transferase: This enzyme adds cytosines to 3' end of RNA and ploy-G is added to 3' end and a complementary strand is synthesized.
+- 'Several methods have been developed since the introduction of scRNA-seq technique. Different steps are performed for this including':
+- # Single Cell Isolation:
+  The first step which determines the quality of scRNA-seq. This step is performed to increase the number of cells captured per experiment:
+  * 'Primary methods': These methods rely on manual picking and FACS to  isolate single cells into plates or microfluidic chips to capture single cells in nanoliter chambers and subsequently generate sequencing libraries. However, these techniques are difficult and error prone.
+  * 'Robotics methods': These methods automate single cell isolation procedures. Droplet-based microfluidics and nanowell-based technologies were developed to randomly capture single cells into isolated nanoliter compartments (droplets or nanowells), increasing the throughput to tens of thousands of cells while at the same time significantly reducing manual labor.
+-  # Second Strand Generation: 
+  'There are three methods for this':
+  * 'Adding poly-A tail': In this method, after adding a ploy-A tail, a poly-T primer is used to amplify cDNA. Quartz-Seq and Quartz-Seq2.
+  * 'MMLV terminal transferase': This enzyme adds cytosines to 3' end of RNA and ploy-G is added to 3' end and a complementary strand is synthesized.
    STRT-seq, SMART-seq, SMART-seq2, Drop-seq, Seq-Well, Chromium, and SPLiT-seq.
-  * Combination of ribonuclease (RNase) H and DNA polymerase I from Escherichia coli: In this method, RNase H first cuts mRNA in the mRNA-DNA duplex.
+  * 'Combination of ribonuclease (RNase) H and DNA polymerase I from Escherichia coli': In this method, RNase H first cuts mRNA in the mRNA-DNA duplex.
     Then, the RNA-primed first strand cDNA is used as template, and second strand cDNA is synthesized by DNA polymerase I.
     CEL-seq, CEL-seq2, MARS-seq, inDrop, and sci-RNA-seq. 
 > 
 {: .callout}
 
 
-<div style="background-color: lightblue; padding: 15px; border-radius: 5px;">
-    <h3 style="background-color: darkblue; color: white; padding: 10px; border-radius: 5px;">Library Construction Mehods:</h3>
-    <p>* PCR-based methods for library amplification due to simplicity and speed.
+<div style="background-color: white; padding: 15px; border-radius: 5px;">
+    <h3 style="background-color: lightblue; color: white; padding: 10px; border-radius: 5px;">Library Construction Mehods:</h3>
+    <p>* 'PCR-based methods for library amplification due to simplicity and speed'.
   - In vitro transcription (IVT) achieves linear amplification of the library, resulting in less amplification bias but requiring more steps and time than PCR.
   CEL-seq, CEL-seq2, and inDrop.</p>
-    <p>* Of note, STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
+    <p>* STRT-seq, STRT-seq-2i, Drop-seq, Chromium (10x Genomics), Seq-Well, and SPLiT-seq all perform full-length cDNA synthesis like SMART-seq and SMART-seq2, but STRT-seq and STRT-seq-2i only sequence the 5′ end of the transcripts, while the others focus on 3′ sequencing of the mRNA.</p>
 </div>
 
 
@@ -75,8 +78,6 @@ of each cell, it is necessary to isolate each cell from the tissue properly.
 
 ![Fig2](https://github.com/user-attachments/assets/abe18944-ade5-4cbf-abcc-f2453e0dc323.jpg)
 
-
-There is a specific terminology for scRNA-seq which we should know for analysis of data. Lets check them out!
 
 
 
